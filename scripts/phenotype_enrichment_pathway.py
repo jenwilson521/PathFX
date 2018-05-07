@@ -8,12 +8,14 @@ from optparse import OptionParser
 import numpy as np
 
 # drugs to targets
-dtf = '../rscs/mapped_drugs_to_targets.pkl'
-dtf = '../rscs/drug_intome_targets.pkl'
+dtf = os.path.join('..','rscs','mapped_drugs_to_targets.pkl')
+dtf = os.path.join('..','rscs','drug_intome_targets.pkl')
 dtd = pickle.load(open(dtf,'rb'))
-dbf = '../rscs/drugbankid_to_name.pkl'
+dbf = os.path.join('..','rscs','drugbankid_to_name.pkl')
 db = pickle.load(open(dbf,'rb'))
 rdb = dict([(v.lower(),k) for (k,v) in db.items()])
+file_swap = pickle.load(open(os.path.join('..','rscs','file_swap.pkl'),'rb'))
+sum_file_swap = pickle.load(open(os.path.join('..','rscs','summary_file_swap.pkl'),'rb'))
 
 # default results
 intome_data = {'cardiac':('../rsc/FIXTHIS','0.96')} # tuples of file paths and score values 
@@ -61,6 +63,8 @@ def create_specific_dic(pth_dic):
 			continue
 		pg = clean_node_name(pg)
 		grf = os.path.join(fpath,'summary','_'.join([pg,str(scr),'randPathScores','.pkl']))
+		if grf in sum_file_swap:
+			grf = sum_file_swap[grf] # swap in the case of long file names
 		pg_scores = pickle.load(open(grf,'rb'))
 		avg = np.mean(pg_scores)
 		if (s-avg) >0:
@@ -71,10 +75,11 @@ def create_specific_dic(pth_dic):
 
 def do_network(tlist,aname,outdir,dname):
 	all_dics = []
-	nt = len(tlist)
 	for t in tlist:
 		t = clean_node_name(t)
 		tfile = os.path.join(fpath,'pth_dic_'+t+'_scr'+scr+'.pkl')
+		if tfile in file_swap:
+			tfile = file_swap[tfile]
 		if os.path.exists(tfile):
 			tdic = pickle.load(open(tfile,'rb'))
 			outf = open(os.path.join(outdir,'_'.join([t,'neighborhood','.txt'])),'w')
@@ -91,7 +96,7 @@ def do_network(tlist,aname,outdir,dname):
 	write_neighborhood_to_file(dict(all_dics),outf) # save the merged neighborhood
 	froot = os.path.split(mergf)[-1]
 #	cmd = 'python get_network_associations_v2.py -f %s -a %s -d %s' % (froot,dname,outdir)
-	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s -n %s' % (froot,dname,outdir,str(nt))
+	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s' % (froot,dname,outdir)
 	os.system(cmd)
 #	print(cmd)
 	print('phenotypic enrichment')

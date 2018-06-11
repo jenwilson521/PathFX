@@ -96,7 +96,7 @@ def do_network(tlist,aname,outdir,dname):
 	write_neighborhood_to_file(dict(all_dics),outf) # save the merged neighborhood
 	froot = os.path.split(mergf)[-1]
 #	cmd = 'python get_network_associations_v2.py -f %s -a %s -d %s' % (froot,dname,outdir)
-	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s' % (froot,dname,outdir)
+	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s -n %d' % (froot,dname,outdir, len(tlist))
 	os.system(cmd)
 #	print(cmd)
 	print('phenotypic enrichment')

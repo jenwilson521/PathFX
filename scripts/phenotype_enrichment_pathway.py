@@ -95,12 +95,22 @@ def do_network(tlist,aname,outdir,dname):
 	outf = open(mergf,'w')
 	write_neighborhood_to_file(dict(all_dics),outf) # save the merged neighborhood
 	froot = os.path.split(mergf)[-1]
+
+	print('starting phenotypic enrichment')
 #	cmd = 'python get_network_associations_v2.py -f %s -a %s -d %s' % (froot,dname,outdir)
-	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s -n %d' % (froot,dname,outdir, len(tlist))
+	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s' % (froot,dname,outdir)
 	os.system(cmd)
 #	print(cmd)
-	print('phenotypic enrichment')
 
+	print('starting semantic similarity')
+	fname = [f for f in os.listdir(outdir) if 'cui_list_.pkl' in f][0] # find the cui list
+	cmd = 'python ../scripts/calc_lin_matrix.py -cui_list %s -a %s -d %s' % (fname,dname,outdir)	
+	os.system(cmd)
+
+	fname = [f for f in os.listdir(outdir) if 'lin_pandas_matrix.pkl' in f][0] # find the matrix object
+	cmd = 'python ../scripts/plot_and_cluster_phenotypes.py -f %s -a %s -d %s' % (fname,dname,outdir)
+	os.system(cmd)
+	print('plotted phenotype clustering')
 
 def main():
 	parser=OptionParser()	
@@ -115,6 +125,7 @@ def main():
 	else:
 		targets = []
 
+	print('\n\nRUNNING PATHFX\n\n')
 	dname = options.dname
 	if dname in dtd:
 		targets+= dtd[dname]

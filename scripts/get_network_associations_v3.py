@@ -9,9 +9,6 @@ from scipy.stats import hypergeom
 
 # import association file data
 rscs_dir = '../rscs/'
-# Expected p-value
-bkphdsf = os.path.join(rscs_dir,'back_phmeds.pkl')
-bkphds = pickle.load(open(bkphdsf,'rb'))
 
 ## Make a dictionary of genes_to_cuis:
 #genes_to_cuis = defaultdict(list)
@@ -25,6 +22,7 @@ cui_to_phens = pickle.load(open(os.path.join(rscs_dir,'cuis_to_all_phens.pkl'),'
 cui_to_genes = pickle.load(open(os.path.join(rscs_dir,'merged_unique_cuis2genes.pkl'),'rb'))
 intome_size = pickle.load(open(os.path.join(rscs_dir,'interactome_size.pkl'),'rb'))
 genes_to_cuis = pickle.load(open(os.path.join(rscs_dir,'merged_genes_to_cuis.pkl'),'rb'))
+sourced_phens = pickle.load(open(os.path.join(rscs_dir,'sourced_phens.pkl'),'rb'))
 
 def get_network_interactions(f):
 	fdata = [l.strip().split('\t') for l in open(f,'r').readlines()]
@@ -52,8 +50,7 @@ def get_assoc(node_list):
 	return (assoc_count,assoc_genes)
 
 
-def calc_hyp(node_list,cui_to_genes,N,Q,ntarg):
-	phen_dic = bkphds[ntarg] # expected distributions
+def calc_hyp(node_list,cui_to_genes,N,Q):
 	n = len(node_list)
 	(assoc_count,assoc_genes) = get_assoc(node_list)
 
@@ -71,27 +68,39 @@ def calc_hyp(node_list,cui_to_genes,N,Q,ntarg):
 		mhc_assoc.append([i+1,a,k,K,prb,BH])
 	sig_assoc = []
 	for [rank,phen,assnet,assint,prb,BH] in mhc_assoc:
-		if phen in phen_dic:
-			exp_BH = phen_dic[phen]
-		else:	
-			exp_BH = 1
-		if prb<BH and assint >24 and BH<exp_BH:
+		if prb<BH and assint >24:
 			genes = assoc_genes[phen]
 			gene_str = ','.join(genes)
 			phen_term = cui_to_phens[phen][0] # use the first phenotype as the descriptor
-			sig_assoc.append([rank,phen_term,phen,assnet,assint,prb,BH,exp_BH,gene_str])
+			sig_assoc.append([rank,phen_term,phen,assnet,assint,prb,BH,gene_str])
 		elif prb>BH:
 			break
 	return sig_assoc
 
 def write_to_output(sig_assoc,outfname):
 	outf = open(outfname,'w')
-	outf.write('\t'.join(['rank','phenotype','cui','assoc in neigh','assoc in intom','probability','Benjamini-Hochberg','Expected P-Value','genes','\n']))
+	outf.write('\t'.join(['rank','phenotype','cui','assoc in neigh','assoc in intom','probability','Benjamini-Hochberg','genes','\n']))
 	if len(sig_assoc) >0:
 		for line in sig_assoc:
 			outf.write('\t'.join([str(x) for x in line])+'\n')
 	outf.close()
 
+def write_sources(sig_assoc,outfname):
+	outf = open(outfname,'w')
+	hed = ['Gene','CUI','Source Databases','\n']
+	outf.write('\t'.join(hed))
+	for [rank,phen_term,phen,assnet,assint,prb,BH,gene_str] in sig_assoc:
+		for g in gene_str.split(','):
+			cgkey = (g,phen)
+			db_source = sourced_phens[cgkey]
+			db_s_str = ','.join(db_source)
+			outline = '\t'.join([g,phen,phen_term,db_s_str,'\n'])
+			outf.write(outline)
+	outf.close()
+
+def write_cui_list(sig_assoc,outfname):
+	cui_list = [x[2] for x in sig_assoc]
+	pickle.dump(cui_list,open(outfname,'wb'))
 	
 def main():
 	parser=OptionParser()
@@ -99,7 +108,6 @@ def main():
 	parser.add_option('-f','--file',dest='netf',help='Tab-separated network file of HUGO gene symbols')
 	parser.add_option('-a','--analysis_name',dest='aname',help='Name of analysis, will be appended to output files; experiment date is suggested')
 	parser.add_option('-d','--dir',dest='res_dir',help='Results directory. If none provided, a directory will be created matching the analysis name in the ../results/ dir')
-	parser.add_option('-n','--num_targ',dest='ntarg',help='The number of drug targets.')
 
 	(options,args) = parser.parse_args()
 
@@ -119,7 +127,7 @@ def main():
 
 	N = intome_size
 	Q = 0.001
-	sig_assoc = calc_hyp(node_list,cui_to_genes,N,Q,float(options.ntarg))
+	sig_assoc = calc_hyp(node_list,cui_to_genes,N,Q)
 
 	# Multiple hypothesis correct
 	n = len(node_list)
@@ -128,6 +136,10 @@ def main():
 	froot = os.path.splitext(options.netf)[0]
 	outfname = os.path.join(rdir,'_'.join([froot,'assoc','table','.txt']))
 	write_to_output(sig_assoc,outfname)
+	outfname = os.path.join(rdir,'_'.join([froot,'assoc','database','sources','.txt']))
+	write_sources(sig_assoc,outfname)
+	outfname = os.path.join(rdir,'_'.join([froot,'cui','list','.pkl']))
+	write_cui_list(sig_assoc,outfname)
 
 if __name__ == "__main__":
 	main()

@@ -6,6 +6,7 @@
 import pickle,csv,os
 from optparse import OptionParser
 import numpy as np
+from collections import defaultdict
 
 # drugs to targets
 dtf = os.path.join('..','rscs','mapped_drugs_to_targets.pkl')
@@ -39,17 +40,17 @@ def clean_node_name(sn):
 	return sn
 
 def write_neighborhood_to_file(pth_dic,outf):
-	all_paths = []
+	all_paths = defaultdict(float) 
 	for (pth,pscore) in pth_dic.items():
 		if '@' in pth:
 			a=pth.split('@')[-2]
 			b=pth.split('@')[-1]
-			all_paths.append((a,b,pscore))
+			if pscore > all_paths[(a,b)]:
+				all_paths[(a,b)] = pscore
 		else:
 			a=pth
-			all_paths.append((a,'',pscore))
-	all_paths = list(set(all_paths)) # remove redundant paths
-	for (a,b,pscore) in all_paths:
+			all_paths[(a,'')] = pscore
+	for ((a,b),pscore) in all_paths.items():
 		outf.write('\t'.join([a,b,str(pscore),'\n']))
 	outf.close()
 
@@ -73,7 +74,7 @@ def create_specific_dic(pth_dic):
 	spec_dic = dict(spec_dic)
 	return spec_dic
 
-def do_network(tlist,aname,outdir,dname):
+def do_network(tlist,aname,outdir,dname,doCluster):
 	all_dics = []
 	for t in tlist:
 		t = clean_node_name(t)
@@ -102,15 +103,16 @@ def do_network(tlist,aname,outdir,dname):
 	os.system(cmd)
 #	print(cmd)
 
-	print('starting semantic similarity')
-	fname = [f for f in os.listdir(outdir) if 'cui_list_.pkl' in f][0] # find the cui list
-	cmd = 'python ../scripts/calc_lin_matrix.py -cui_list %s -a %s -d %s' % (fname,dname,outdir)	
-	os.system(cmd)
+	if doCluster:
+		print('starting semantic similarity')
+		fname = [f for f in os.listdir(outdir) if 'cui_list_.pkl' in f][0] # find the cui list
+		cmd = 'python ../scripts/calc_lin_matrix.py -cui_list %s -a %s -d %s' % (fname,dname,outdir)	
+		os.system(cmd)
 
-	fname = [f for f in os.listdir(outdir) if 'lin_pandas_matrix.pkl' in f][0] # find the matrix object
-	cmd = 'python ../scripts/plot_and_cluster_phenotypes.py -f %s -a %s -d %s' % (fname,dname,outdir)
-	os.system(cmd)
-	print('plotted phenotype clustering')
+		fname = [f for f in os.listdir(outdir) if 'lin_pandas_matrix.pkl' in f][0] # find the matrix object
+		cmd = 'python ../scripts/plot_and_cluster_phenotypes.py -f %s -a %s -d %s' % (fname,dname,outdir)
+		os.system(cmd)
+		print('plotted phenotype clustering')
 
 def main():
 	parser=OptionParser()	
@@ -118,6 +120,7 @@ def main():
 	parser.add_option('-a','--analysis_name',dest='aname',help='Name for the Analysisi, this will also be the dirname for the results')
 	parser.add_option('-i','--interactome_name',dest='iname',default="",help='The name of the interactome, default is the tissue non-specific interactome')
 	parser.add_option('-t','--targets',dest='dtargs',default="",help='A comma-separated list of drug targets')
+	parser.add_option('-c','--cluster',dest='docluster',default=False,help='Optional parameter to do phenotype clustering. Default = False')
 
 	(options,args) = parser.parse_args()
 	if options.dtargs:
@@ -157,7 +160,9 @@ def main():
 	print('results in: '+outdir)
 	print('targets: '+' '.join(targets))
 
-	do_network(targets,aname,outdir,dname)
+	doCluster = options.docluster
+
+	do_network(targets,aname,outdir,dname,doCluster)
 
 if __name__ == "__main__":
 	main()

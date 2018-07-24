@@ -99,8 +99,14 @@ def write_sources(sig_assoc,outfname):
 	outf.close()
 
 def write_cui_list(sig_assoc,outfname):
-	cui_list = [x[2] for x in sig_assoc]
-	pickle.dump(cui_list,open(outfname,'wb'))
+	if len(sig_assoc) >=100:
+		cui_list = [x[2] for x in sig_assoc][:100]
+	else:
+		cui_list = [x[2] for x in sig_assoc]
+#	pickle.dump(cui_list,open(outfname,'wb'))
+	outf = open(outfname,'w')
+	outf.write('\n'.join(cui_list))
+	outf.close()
 	
 def main():
 	parser=OptionParser()
@@ -138,7 +144,7 @@ def main():
 	write_to_output(sig_assoc,outfname)
 	outfname = os.path.join(rdir,'_'.join([froot,'assoc','database','sources','.txt']))
 	write_sources(sig_assoc,outfname)
-	outfname = os.path.join(rdir,'_'.join([froot,'cui','list','.pkl']))
+	outfname = os.path.join(rdir,'_'.join([froot,'cui','list','.txt']))
 	write_cui_list(sig_assoc,outfname)
 
 if __name__ == "__main__":

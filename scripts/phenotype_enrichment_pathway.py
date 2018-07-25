@@ -105,12 +105,12 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 
 	if doCluster:
 		print('starting semantic similarity')
-		fname = [f for f in os.listdir(outdir) if 'cui_list_.pkl' in f][0] # find the cui list
+		fname = [f for f in os.listdir(outdir) if 'cui_list_.txt' in f][0] # find the cui list
 		# cmd = 'python ../scripts/calc_lin_matrix.py -cui_list %s -a %s -d %s' % (fname,dname,outdir)	
 		cmd = 'python ../scripts/calc_lin_matrix_umls.py -cui_list %s -a %s -d %s' % (fname,dname,outdir)	
 		os.system(cmd)
 
-		#fname = [f for f in os.listdir(outdir) if 'lin_pandas_matrix.pkl' in f][0] # find the matrix object
+		#fname = [f for f in os.listdir(outdir) if 'lin_pandas_matrix' in f][0] # find the matrix object
 		#cmd = 'python ../scripts/plot_and_cluster_phenotypes.py -f %s -a %s -d %s' % (fname,dname,outdir)
 		#os.system(cmd)
 		#print('plotted phenotype clustering')

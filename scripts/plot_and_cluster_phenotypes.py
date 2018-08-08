@@ -57,7 +57,8 @@ tname = args.aname
 print('loading semantic similarity results for plotting')
 # Load the data frame, process
 full_name = os.path.join(rdir,args.linf)
-df = pickle.load(open(full_name,'rb'))
+#df = pickle.load(open(full_name,'rb'))
+df = pd.read_table(open(full_name,'rU'))
 df = df.fillna(-1)
 
 # caluclate linkage

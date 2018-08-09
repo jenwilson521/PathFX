@@ -34,11 +34,17 @@ def separate_links(lk,link_dist,nl):
 					node2 = node_dic[n2]
 					node_dic.pop(n2,'')
 				node_dic[new_node] =  node1+node2
-			elif n1 < len(df): # these are singletons that don't get merged
-				new_node = n1
-				node1 = [df.index[int(n1)]]
-				node_dic[new_node] = node1
-				node_list.remove(df.index[int(n1)])
+			elif n1 < len(df) or n2 < len(df): # these are singletons that don't get merged
+				if n1 < len(df):
+					new_node = n1
+					node1 = [df.index[int(n1)]]
+					node_dic[new_node] = node1
+					node_list.remove(df.index[int(n1)])
+				if n2 < len(df):
+					new_node = n2
+					node2 = [df.index[int(n2)]]
+					node_dic[new_node] = node2
+					node_list.remove(df.index[int(n2)])
 	return node_dic
 
 parser = argparse.ArgumentParser(description='Process some integers.')
@@ -58,7 +64,8 @@ print('loading semantic similarity results for plotting')
 # Load the data frame, process
 full_name = os.path.join(rdir,args.linf)
 #df = pickle.load(open(full_name,'rb'))
-df = pd.read_table(full_name,delimiter='\t',header=0)
+df = pd.read_table(full_name,delimiter='\t',header=0)#,na_values="NULL")
+df = df.dropna(axis=1,how='all')
 df = df.fillna(-1)
 
 # caluclate linkage

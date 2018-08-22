@@ -1,0 +1,105 @@
+Gene	CUI	Source Databases	
+PRSS1	C4293692	Abnormality of digestive system physiology	HumPhenOnt	
+PRSS1	C0235974	Pancreatic Carcinoma	DisGeNet	
+PRSS1	C4293691	Abnormality of digestive system morphology	HumPhenOnt	
+PRSS1	C4025731	Abnormal thrombosis	HumPhenOnt	
+PRSS1	C0554103	Fat malabsorption	HumPhenOnt	
+PRSS1	C4025823	Abnormality of the endocrine system	HumPhenOnt	
+PRSS1	C1847835	VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1 (finding)	DisGeNet	
+PRSS1	C0006663	Calcinosis	DisGeNet	
+PRSS1	C0677886	Ovarian epithelial cancer	DisGeNet	
+PRSS1	C0178874	Tumor Progression	DisGeNet	
+PRSS1	C0266015	Abnormality of the digestive system	HumPhenOnt	
+PRSS1	C0011854	Diabetes mellitus type 1	DisGeNet	
+PRSS1	C1832160	Abnormality of temperature regulation	HumPhenOnt	
+PRSS1	C4022805	Abnormal inflammatory response	HumPhenOnt	
+PRSS1	C4021073	Morphological abnormality of the gastrointestinal tract	HumPhenOnt	
+PRSS1	C4025812	Dermatological manifestations of systemic disorders	HumPhenOnt	
+PRSS1	C4023048	Abnormality of pancreas physiology	HumPhenOnt	
+PRSS1	C4021768	Abnormality of metabolism/homeostasis	HumPhenOnt	
+PRSS1	C4022992	Abnormal respiratory system morphology	HumPhenOnt	
+PRSS1	C0940767	Abnormality of the biliary system	HumPhenOnt	
+PRSS1	C0241657	Abnormality of blood and blood-forming tissues	HumPhenOnt	
+PRSS1	C0015967	Malignant hyperthermia susceptibility type 5	HumPhenOnt	
+PRSS1	C0033578	Prostatic Neoplasms	DisGeNet	
+PRSS1	C4025726	Abnormality of the pleura	HumPhenOnt	
+PRSS1	C0740651	Abdominal symptom	HumPhenOnt	
+PRSS1	C0030286	Neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset	DisGeNet	
+PRSS1	C4021760	Abnormality of lung morphology	HumPhenOnt	
+PRSS1	C4021780	Abnormality of the liver	HumPhenOnt	
+PRSS1	C4023452	Elevated C-reactive protein level	HumPhenOnt	
+PRSS1	C0030305	Pancreatitis	PheGenI,DisGeNet,HumPhenOnt	
+PRSS1	C0038238	Steatorrhea	HumPhenOnt	
+PRSS1	C0699791	Stomach cancer	DisGeNet	
+PRSS1	C4025357	Abnormality of body weight	HumPhenOnt	
+PRSS1	C0152009	Abnormal leukocyte count	HumPhenOnt	
+PRSS1	C3495676	Anorectal anomaly	HumPhenOnt	
+PRSS1	C4025717	Abnormality of the small intestine	HumPhenOnt	
+PRSS1	C0024523	Malabsorption	HumPhenOnt	
+PRSS1	C4021753	Abnormality of the immune system	HumPhenOnt	
+PRSS1	C4023598	Abnormal glucose homeostasis	HumPhenOnt	
+PRSS1	C0000737	Abdominal pain	HumPhenOnt	
+PRSS1	C0007102	Colon cancer	DisGeNet	
+PRSS1	C0001418	 Adenocarcinoma, ovarian, somatic, 167000 (3)	DisGeNet	
+PRSS1	C0011881	Diabetic Nephropathies	DisGeNet	
+PRSS1	C1335302	Pancreatic Ductal Adenocarcinoma	DisGeNet	
+PRSS1	C0206180	Anaplastic large cell lymphoma, ALK negative	DisGeNet	
+PRSS1	C0025202	Melanoma	DisGeNet	
+PRSS1	C4022803	Increased inflammatory response	HumPhenOnt	
+PRSS1	C0030193	Pain	HumPhenOnt	
+PRSS1	C4018871	Abnormality of the respiratory system	HumPhenOnt	
+PRSS1	C0008370	Cholestasis, benign recurrent intrahepatic 1	HumPhenOnt	
+PRSS1	C0238339	Hereditary pancreatitis	ClinVar,DisGeNet	
+PRSS1	C0019196	Hepatitis C	DisGeNet	
+PRSS1	C0023518	Leukocytosis	HumPhenOnt	
+PRSS1	C0021831	Abnormality of the intestine	HumPhenOnt	
+PRSS1	C4023616	Abnormality of immune system physiology	HumPhenOnt	
+PRSS1	C4021157	Generalized abnormality of skin	HumPhenOnt	
+PRSS1	C0346647	Malignant neoplasm of pancreas	DisGeNet	
+PRSS1	C4021790	Abnormality of the skeletal system	HumPhenOnt	
+PRSS1	C0162565	Acute intermittent porphyria	DisGeNet	
+PRSS1	C4025329	Abnormality of the anus	HumPhenOnt	
+PRSS1	C4022922	Abnormal enzyme/coenzyme activity	HumPhenOnt	
+PRSS1	C4025761	Abnormality of the integument	HumPhenOnt	
+PRSS1	C0027627	Secondary hypertriglyceridemia	DisGeNet	
+PRSS1	C0001339	Acute pancreatitis	DisGeNet	
+PRSS1	C0009375	Neoplasm of the colon	DisGeNet	
+PRSS1	C4021764	Abnormality of the abdominal organs	HumPhenOnt	
+PRSS1	C0013604	Hydrops, lactic acidosis, and sideroblastic anemia	HumPhenOnt	
+PRSS1	C4023679	Abnormality of circulating protein level	HumPhenOnt	
+PRSS1	C0032227	Pleural effusion	HumPhenOnt	
+PRSS1	C0037268	Abnormality of the skin	HumPhenOnt	
+PRSS1	C4023049	Abnormality of pancreas morphology	HumPhenOnt	
+PRSS1	C3806226	Ectopic calcification	HumPhenOnt	
+PRSS1	C0042900	Vitiligo	DisGeNet	
+PRSS1	C0699790	Carcinoma of colon	DisGeNet	
+PRSS1	C0030297	Pancreatic Neoplasms	DisGeNet	
+PRSS1	C0162835	Hypopigmentation of the skin	DisGeNet	
+PRSS1	C0003466	Anal atresia	HumPhenOnt	
+PRSS1	C0441748	Autosomal recessive inheritance	HumPhenOnt	
+PRSS1	C0020473	Hyperlipidemia, combined, 1	DisGeNet	
+PRSS1	C0035126	Reperfusion Injury	DisGeNet	
+PRSS1	C4023588	Abnormality of the gastrointestinal tract	HumPhenOnt	
+PRSS1	C0015544	Failure to thrive	HumPhenOnt	
+PRSS1	C0443147	Autosomal dominant non-syndromic sensorineural deafness type DFNA	HumPhenOnt	
+PRSS1	C0221002	Primary hyperparathyroidism	DisGeNet	
+PRSS1	C0042487	Venous thrombosis	HumPhenOnt	
+PRSS1	C1262477	Decreased body weight	HumPhenOnt	
+PRSS1	C0267963	Exocrine pancreatic insufficiency, dyserythropoietic anemia, and calvarial hyperostosis	DisGeNet,HumPhenOnt	
+PRSS1	C2364164	Abnormality of fluid regulation	HumPhenOnt	
+PRSS1	C0010674	Cystic Fibrosis	DisGeNet	
+PRSS1	C0376670	Pancreatitis, Alcoholic	DisGeNet	
+PRSS1	C0032580	Familial adenomatous polyposis 1	DisGeNet	
+PRSS1	C0011849	Diabetes Mellitus, Type 1	DisGeNet,HumPhenOnt	
+PRSS1	C0281361	Pancreatic adenocarcinoma	DisGeNet	
+PRSS1	C0022346	Jaundice	HumPhenOnt	
+PRSS1	C0262361	Growth abnormality	HumPhenOnt	
+PRSS1	C0345905	Intrahepatic Cholangiocarcinoma	DisGeNet	
+PRSS1	C4025751	Abnormality of the pancreas	HumPhenOnt	
+PRSS1	C0677776	Hereditary breast and ovarian cancer syndrome	DisGeNet	
+PRSS1	C0009812	Constitutional symptom	HumPhenOnt	
+PRSS1	C1519680	Tumor Immunity	DisGeNet	
+PRSS1	C4023612	Abnormality of cellular immune system	HumPhenOnt	
+PRSS1	C0162309	Adrenoleukodystrophy	DisGeNet	
+PRSS1	C4023599	Abnormality of carbohydrate metabolism/homeostasis	HumPhenOnt	
+PRSS1	C4023528	Abnormality of skin morphology	HumPhenOnt	

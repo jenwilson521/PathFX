@@ -1,0 +1,4 @@
+node_name	node_type	
+DB00592	drug	
+GABRB3	drug_target	
+CYP2D6	drug_target	

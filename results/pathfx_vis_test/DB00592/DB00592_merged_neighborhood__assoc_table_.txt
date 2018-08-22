@@ -1,0 +1,1 @@
+rank	phenotype	cui	assoc in neigh	assoc in intom	probability	Benjamini-Hochberg	genes	

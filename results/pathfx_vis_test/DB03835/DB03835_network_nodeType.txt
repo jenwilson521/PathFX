@@ -1,0 +1,84 @@
+node_name	node_type	
+DB03835	drug	
+PYGM	drug_target	
+Glycogen storage disease	phenotype	
+Muscle weakness	phenotype	
+Abnormality of muscle morphology	phenotype	
+Exercise intolerance, riboflavin-responsive	phenotype	
+Acute myocardial ischemia	phenotype	
+Myalgia	phenotype	
+Abnormality of muscle physiology	phenotype	
+Abnormality of circulating enzyme level	phenotype	
+Elevated serum creatine phosphokinase	phenotype	
+Abnormality of the musculature	phenotype	
+Limb-girdle muscle weakness	phenotype	
+hemangiopericytoma	phenotype	
+VENTRICULAR TACHYCARDIA, CATECHOLAMINERGIC POLYMORPHIC, 1 (disorder)	phenotype	
+Chronic atrial fibrillation	phenotype	
+Lipomatosis, Multiple	phenotype	
+Inappropriate ADH Syndrome	phenotype	
+African Trypanosomiasis	phenotype	
+Muscle stiffness	phenotype	
+Congenital long QT syndrome	phenotype	
+Abnormality of circulating protein level	phenotype	
+Rhabdomyolysis	phenotype	
+Cocaine delirium	phenotype	
+Vitelliform Macular Dystrophy	phenotype	
+Hyperlipoproteinemia Type IIa	phenotype	
+Monocytic leukemia	phenotype	
+Abnormal atrioventricular conduction	phenotype	
+Arrhythmias, Cardiac	phenotype	
+Adolescent idiopathic scoliosis	phenotype	
+Hypothyroidism	phenotype	
+Abnormal QRS complex	phenotype	
+Ventricular tachycardia, catecholaminergic polymorphic, 2	phenotype	
+Malignant hyperthermia susceptibility	phenotype	
+Arthritis, Reactive	phenotype	
+Skeletal muscle atrophy	phenotype	
+Zoonotic form of cutaneous leishmaniasis	phenotype	
+Brugada Syndrome	phenotype	
+Channelopathies	phenotype	
+Lymphangiomyomatosis	phenotype	
+Abnormality of urine homeostasis	phenotype	
+Familial hypertrophic cardiomyopathy 11	phenotype	
+Osteoarthritis of hip	phenotype	
+Syncope	phenotype	
+Stress, Psychological	phenotype	
+Systemic Inflammatory Response Syndrome	phenotype	
+Ventricular arrhythmia	phenotype	
+Angelman syndrome-like	phenotype	
+Lipoma	phenotype	
+Abnormality of skeletal muscles	phenotype	
+Contractures involving the joints of the feet	phenotype	
+Vertigo	phenotype	
+Abnormality of muscle size	phenotype	
+M5b Acute differentiated monocytic leukemia	phenotype	
+Multiple Endocrine Neoplasia Type 1	phenotype	
+Vestibular dysfunction	phenotype	
+Heart block	phenotype	
+Muscle cramps	phenotype	
+Distal muscle weakness	phenotype	
+Paralysis	phenotype	
+Abnormality of cardiovascular system electrophysiology	phenotype	
+Parathyroid adenoma	phenotype	
+Constitutional symptom	phenotype	
+Spastic syndrome	phenotype	
+Melanoma, B16	phenotype	
+Methamphetamine abuse	phenotype	
+Posttraumatic stress disorder	phenotype	
+Teratoma	phenotype	
+Pain	phenotype	
+Acquired long QT syndrome	phenotype	
+Congenital cataract	phenotype	
+Abnormality of the pituitary gland	phenotype	
+Spastic paraplegia 9	phenotype	
+Gout	phenotype	
+Knee osteoarthritis	phenotype	
+Abnormality of the urinary system physiology	phenotype	
+Slow progression	phenotype	
+X-linked recessive inheritance	phenotype	
+Adult onset ataxia with oculomotor apraxia	phenotype	
+Abnormality of cardiovascular system physiology	phenotype	
+Ventricular Fibrillation Adverse Event	phenotype	
+Abnormality of muscle fibers	phenotype	
+Lyme Disease	phenotype	

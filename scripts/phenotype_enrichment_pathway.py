@@ -7,6 +7,7 @@ import pickle,csv,os
 from optparse import OptionParser
 import numpy as np
 from collections import defaultdict
+from datetime import datetime
 
 # drugs to targets
 dtf = os.path.join('..','rscs','mapped_drugs_to_targets.pkl')
@@ -74,6 +75,41 @@ def create_specific_dic(pth_dic):
 	spec_dic = dict(spec_dic)
 	return spec_dic
 
+def create_visualization_files(dname,tlist,phen_file,net_file,outdir):
+	print('creating files for visualization')
+	# initialize a new network file, with phenotypes
+	fN_name = os.path.join(outdir,dname + '_merged_neighborhood__withDrugTargsAndPhens.txt')
+	fN  = open(fN_name,'w') # full network file
+	hed = ['node1','node2','edge_score','\n'] # add header row
+	fN.write('\t'.join(hed))
+	for t in tlist:
+		fN.write('\t'.join([dname,t,'1.0','\n']))
+	net_lines = [l.strip() for l in open(net_file,'rU').readlines()]
+	n = fN.write('\n'.join(net_lines)+'\n')
+
+	# initialize a node-type file
+	nT_name = os.path.join(outdir,dname +'_network_nodeType.txt')
+	nT = open(nT_name,'w') # node type file
+	hed = ['node_name','node_type','\n']
+	nT.write('\t'.join(hed))
+	nT.write('\t'.join([dname,'drug','\n']))
+	for t in tlist:
+		nT.write('\t'.join([t,'drug_target','\n']))
+	phen_read = csv.DictReader(open(phen_file,'rU'),delimiter='\t')
+	for row in phen_read:
+		ph = row['phenotype']
+		nT.write('\t'.join([ph,'phenotype','\n']))
+
+		gene_list = row['genes']
+		if ',' in gene_list:
+			for g in gene_list:
+				fN.write('\t'.join([ph,g,'1.0','\n'])) # multiple genes associated
+		else:
+			fN.write('\t'.join([ph,gene_list,'1.0','\n'])) # single genes associated
+	nT.close()
+	fN.close()
+
+
 def do_network(tlist,aname,outdir,dname,doCluster):
 	all_dics = []
 	for t in tlist:
@@ -102,6 +138,12 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 	cmd = 'python ../scripts/get_network_associations_v3.py -f %s -a %s -d %s' % (froot,dname,outdir)
 	os.system(cmd)
 #	print(cmd)
+	
+	phen_file = [f for f in os.listdir(outdir) if 'merged_neighborhood__assoc_table_.txt' in f][0] # find the association file
+	net_file = [f for f in os.listdir(outdir) if 'merged_neighborhood_.txt' in f][0] # find the protein-protein network
+	ph_fpath = os.path.join(outdir,phen_file)
+	net_fpath = os.path.join(outdir,net_file)
+	create_visualization_files(dname,tlist,ph_fpath,net_fpath,outdir)
 
 	if doCluster:
 		print('starting semantic similarity')
@@ -115,6 +157,7 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 		os.system(cmd)
 		print('plotted phenotype clustering')
 
+	
 def main():
 	parser=OptionParser()	
 	parser.add_option('-d','--drug_name',dest='dname',help='Drugname, either marketed or DrugBankID')
@@ -153,6 +196,8 @@ def main():
 		scr = '0.77' # use the default interatome
 
 	aname = options.aname.replace(' ','_').lower()
+	dtime = datetime.now().isoformat().replace(':','-')
+	aname = '_'.join([aname,dtime])
 	outdir = os.path.join('../results/',aname,dname)
 	if not os.path.isdir(outdir):
 		os.makedirs(outdir)

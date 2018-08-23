@@ -7,6 +7,8 @@ from optparse import OptionParser
 from collections import defaultdict
 from scipy.stats import hypergeom
 
+global umls_rank
+umls_rank = 100
 # import association file data
 rscs_dir = '../rscs/'
 
@@ -100,7 +102,7 @@ def write_sources(sig_assoc,outfname):
 
 def write_cui_list(sig_assoc,outfname):
 	if len(sig_assoc) >=100:
-		cui_list = [x[2] for x in sig_assoc][:100]
+		cui_list = [x[2] for x in sig_assoc][:umls_rank]
 	else:
 		cui_list = [x[2] for x in sig_assoc]
 #	pickle.dump(cui_list,open(outfname,'wb'))

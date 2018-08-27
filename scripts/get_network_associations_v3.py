@@ -8,7 +8,7 @@ from collections import defaultdict
 from scipy.stats import hypergeom
 
 global umls_rank
-umls_rank = 100
+umls_rank = 50
 # import association file data
 rscs_dir = '../rscs/'
 

@@ -11,6 +11,6 @@ dbid2namef = '../rscs/drugbankid_to_name.pkl'
 dbid2n = pickle.load(open(dbid2namef,'rb'))
 dbids = [k for k in dbid2n.keys()]
 
-for drug_name in ['DB03173','DB00592','DB03835':
+for drug_name in ['DB03173','DB00592','DB03835']:
 	cmd = 'python phenotype_enrichment_pathway.py -d %s -a %s'%(drug_name,analysis_name)
 	os.system(cmd)

@@ -85,6 +85,7 @@ def create_visualization_files(dname,tlist,phen_file,net_file,outdir):
 	for t in tlist:
 		fN.write('\t'.join([dname,t,'1.0','\n']))
 	net_lines = [l.strip() for l in open(net_file,'rU').readlines()]
+	net_lines = [l for l in net_lines if len(l) > 2] # remove self-loops to drug-target proteins
 	n = fN.write('\n'.join(net_lines)+'\n')
 
 	# initialize a node-type file
@@ -102,7 +103,7 @@ def create_visualization_files(dname,tlist,phen_file,net_file,outdir):
 
 		gene_list = row['genes']
 		if ',' in gene_list:
-			for g in gene_list:
+			for g in gene_list.split(','):
 				fN.write('\t'.join([ph,g,'1.0','\n'])) # multiple genes associated
 		else:
 			fN.write('\t'.join([ph,gene_list,'1.0','\n'])) # single genes associated

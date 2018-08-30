@@ -197,8 +197,8 @@ def main():
 		scr = '0.77' # use the default interatome
 
 	aname = options.aname.replace(' ','_').lower()
-	dtime = datetime.now().isoformat().replace(':','-')
-	aname = '_'.join([aname,dtime])
+	# dtime = datetime.now().isoformat().replace(':','-')
+	# aname = '_'.join([aname,dtime])
 	outdir = os.path.join('../results/',aname,dname)
 	if not os.path.isdir(outdir):
 		os.makedirs(outdir)

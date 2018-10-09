@@ -118,6 +118,8 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 		tfile = os.path.join(fpath,'pth_dic_'+t+'_scr'+scr+'.pkl')
 		if tfile in file_swap:
 			tfile = file_swap[tfile]
+		if not os.path.exists(tfile):
+			tfile = os.path.join(fpath,'pth_dic_'+t.capitalize()+'_scr'+scr+'.pkl')
 		if os.path.exists(tfile):
 			tdic = pickle.load(open(tfile,'rb'))
 			outf = open(os.path.join(outdir,'_'.join([t,'neighborhood','.txt'])),'w')
@@ -127,7 +129,7 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 			write_neighborhood_to_file(spec_dic,outf) # save the specific network
 			all_dics+= spec_dic.items() 
 		else:
-			print('target not analzyed, not in interactome: '+t)
+			print('target not analyzed, not in interactome: '+t)
 	print('merging')
 	mergf = os.path.join(outdir,'_'.join([dname,'merged','neighborhood','.txt']))
 	outf = open(mergf,'w')

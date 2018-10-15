@@ -29,7 +29,7 @@ for (counter,f) in allf:
 		print(counter)
 		# create new file name and subdirectory
 		file_name = 'n'+"{0:0=6d}".format(counter)+'.pkl'
-		sdir = os.path.join(ndir,file_name[0:3])
+		sdir = os.path.join(ndir,file_name[0:4])
 		if not os.path.exists(sdir):
 			os.makedirs(sdir)
 
@@ -49,7 +49,7 @@ for (counter,f) in allf:
 		# copy the new file to the new location
 		cmd = 'cp %s %s' % (os.path.join(rdir,f),new_f_path) # original command
 		# print(cmd)
-		# os.system(cmd)
+		os.system(cmd)
 
 		unique_nodes.add(nname.upper())
 
@@ -61,7 +61,7 @@ for (counter,f) in allf:
 			sumf_path = os.path.join(srdir,sumf)
 
 			# follow the originally assigned node number for naming the summary files
-			ssdir = os.path.join(nsdir,'sumn'+file_name[0:3])
+			ssdir = os.path.join(nsdir,'sumn'+file_name[0:4])
 			if not os.path.exists(ssdir):
 				os.makedirs(ssdir)
 			sum_file_name = 'sumn'+"{0:0=6d}".format(counter)+'.pkl'
@@ -69,7 +69,7 @@ for (counter,f) in allf:
 
 			cmd = 'cp %s %s' % (sumf_path,new_sf_path)
 			# print(cmd)
-			# os.system(cmd)
+			os.system(cmd)
 			
 			sum_hash_map[nname] = new_sf_path
 

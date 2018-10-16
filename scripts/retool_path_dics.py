@@ -21,7 +21,7 @@ allf = [(i+1,f) for (i,f) in enumerate(sorted([f for f in os.listdir(rdir)]))] #
 
 # also look at summary files
 srdir = os.path.join(rdir,'summary')
-sumf_dic = dict([(f.replace('_0.77_randPathScores_.pkl',''),f) for f in os.listdir(srdir)])
+sumf_dic = dict([(f.replace('_0.77_randPathScores_.pkl','').upper(),f) for f in os.listdir(srdir)]) # force all to uppercase
 
 for (counter,f) in allf:
 	if 'pth_dic' in f: # and '(' in f:
@@ -39,9 +39,9 @@ for (counter,f) in allf:
 		# print(nname)
 
 		# map all forms of the gene name back to the new file
-		new_hash_map[nname] = new_f_path
+#		new_hash_map[nname] = new_f_path
 		new_hash_map[nname.upper()] = new_f_path
-		new_hash_map[nname.lower()] = new_f_path 
+#		new_hash_map[nname.lower()] = new_f_path 
 
 		# error checking for parentheses in file name
 		if '(' in f or ')' in f or "'" in f:
@@ -49,13 +49,13 @@ for (counter,f) in allf:
 		# copy the new file to the new location
 		cmd = 'cp %s %s' % (os.path.join(rdir,f),new_f_path) # original command
 		# print(cmd)
-		os.system(cmd)
+		# os.system(cmd)
 
 		unique_nodes.add(nname.upper())
 
 		# repeat process if the node has a summary file
-		if nname in sumf_dic:
-			sumf = sumf_dic[nname]
+		if nname.upper() in sumf_dic: 
+			sumf = sumf_dic[nname.upper()]
 			if '(' in sumf or ')' in sumf or "'" in sumf:
 				sumf = sumf.replace('(','\(').replace(')','\)').replace("'",r"\'")
 			sumf_path = os.path.join(srdir,sumf)
@@ -71,7 +71,7 @@ for (counter,f) in allf:
 			# print(cmd)
 			os.system(cmd)
 			
-			sum_hash_map[nname] = new_sf_path
+			sum_hash_map[nname.upper()] = new_sf_path
 
 	else: # these are duplicates of files with long names
 		pass

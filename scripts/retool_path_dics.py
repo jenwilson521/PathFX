@@ -69,12 +69,26 @@ for (counter,f) in allf:
 
 			cmd = 'cp %s %s' % (sumf_path,new_sf_path)
 			# print(cmd)
-			os.system(cmd)
+			# os.system(cmd)
 			
 			sum_hash_map[nname.upper()] = new_sf_path
 
 	else: # these are duplicates of files with long names
 		pass
+
+# manually map a lost file? I don't know that the original node dic was kept, maybe only the version of the file with the abbreviated name
+nname = 'CYP2C19star1,CYP2C19star10,CYP2C19star11,CYP2C19star13,CYP2C19star14,CYP2C19star15,CYP2C19star16,CYP2C19star18,CYP2C19star19,CYP2C19star22,CYP2C19star23,CYP2C19star24,CYP2C19star25,CYP2C19star26,CYP2C19star5,CYP2C19star6,CYP2C19star8,CYP2C19star9'
+sumf_path = os.path.join(srdir,'CYP2C19star1,5-10,11,13-16,18-19,22-26_0.77_randPathScores_.pkl')
+counter+=1
+file_name = 'n'+"{0:0=6d}".format(counter)+'.pkl' # but I can't find the actual node pth dic file?
+sum_file_name = 'sumn'+"{0:0=6d}".format(counter)+'.pkl'
+ssdir = os.path.join(nsdir,'sumn'+file_name[0:4])
+new_sf_path = os.path.join(ssdir,sum_file_name)
+
+sum_hash_map[nname.upper()] = new_sf_path
+cmd = 'cp %s %s' % (sumf_path,new_sf_path)
+print(cmd)
+os.system(cmd)
 
 pickle.dump(unique_nodes,open('../rscs/unique_network_nodes.pkl','wb'))
 pickle.dump(new_hash_map,open('../rscs/gene_to_hash_map.pkl','wb'))

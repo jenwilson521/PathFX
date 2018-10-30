@@ -71,7 +71,7 @@ def calc_hyp(node_list,cui_to_genes,N,Q):
 	sig_assoc = []
 	for [rank,phen,assnet,assint,prb,BH] in mhc_assoc:
 		if prb<BH and assint >24:
-			genes = assoc_genes[phen]
+			genes = sorted(assoc_genes[phen])
 			gene_str = ','.join(genes)
 			phen_term = cui_to_phens[phen][0] # use the first phenotype as the descriptor
 			sig_assoc.append([rank,phen_term,phen,assnet,assint,prb,BH,gene_str])
@@ -94,7 +94,7 @@ def write_sources(sig_assoc,outfname):
 	for [rank,phen_term,phen,assnet,assint,prb,BH,gene_str] in sig_assoc:
 		for g in gene_str.split(','):
 			cgkey = (g,phen)
-			db_source = sourced_phens[cgkey]
+			db_source = sorted(sourced_phens[cgkey])
 			db_s_str = ','.join(db_source)
 			outline = '\t'.join([g,phen,phen_term,db_s_str,'\n'])
 			outf.write(outline)

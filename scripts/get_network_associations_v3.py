@@ -62,7 +62,7 @@ def calc_hyp(node_list,cui_to_genes,N,Q):
 		prb = 1 - hypergeom.cdf(k,N,K,n)	
 		assoc_analy.append([a,k,K,prb])
 	# Q = 0.001
-	sort_assoc = sorted(assoc_analy,key = lambda x:x[3])
+	sort_assoc = sorted(assoc_analy,key = lambda x:(x[3],x[0]))
 	m = len(sort_assoc)
 	mhc_assoc = []
 	for (i,[a,k,K,prb]) in enumerate(sort_assoc):

@@ -16,8 +16,10 @@ dtd = pickle.load(open(dtf,'rb'))
 dbf = os.path.join('..','rscs','drugbankid_to_name.pkl')
 db = pickle.load(open(dbf,'rb'))
 rdb = dict([(v.lower(),k) for (k,v) in db.items()])
-file_swap = pickle.load(open(os.path.join('..','rscs','file_swap.pkl'),'rb'))
-sum_file_swap = pickle.load(open(os.path.join('..','rscs','summary_file_swap.pkl'),'rb'))
+## file_swap = pickle.load(open(os.path.join('..','rscs','file_swap.pkl'),'rb'))
+## sum_file_swap = pickle.load(open(os.path.join('..','rscs','summary_file_swap.pkl'),'rb'))
+new_hash_net = pickle.load(open(os.path.join('..','rscs','gene_to_hash_map.pkl'),'rb'))
+new_hash_sum_files = pickle.load(open(os.path.join('..','rscs','gene_to_sum_hash_map.pkl'),'rb'))
 
 # default results
 intome_data = {'cardiac':('../rsc/FIXTHIS','0.96')} # tuples of file paths and score values 
@@ -35,8 +37,8 @@ def clean_node_name(sn):
 		sn = sn.replace(' ','')
 	if '*' in sn:
 		sn = sn.replace('*','star')
-	if long_name in sn:
-		sn = sn.replace(long_name,short_name)
+#	if long_name in sn:
+#		sn = sn.replace(long_name,short_name)
 
 	return sn
 
@@ -59,14 +61,22 @@ def create_specific_dic(pth_dic):
 	spec_dic = []
 	for (pth,s) in pth_dic.items():
 		if '@' in pth:
-			pg = pth.split('@')[-1]
+			pg = pth.split('@')[-1].upper()
 		else:
 			spec_dic.append((pth,1)) # the target stays in the specific network
 			continue
-		pg = clean_node_name(pg)
-		grf = os.path.join(fpath,'summary','_'.join([pg,str(scr),'randPathScores','.pkl']))
-		if grf in sum_file_swap:
-			grf = sum_file_swap[grf] # swap in the case of long file names
+		### NEW 10-16-18
+		grf = None
+		if pg.upper() in new_hash_sum_files:
+			grf  = new_hash_sum_files[pg.upper()] # look at summary path scores for node in network
+		elif clean_node_name(pg).upper() in new_hash_sum_files:
+			grf  = new_hash_sum_files[clean_node_name(pg).upper()]
+		else:
+			print(pg)
+#		pg = clean_node_name(pg)
+#		grf = os.path.join(fpath,'summary','_'.join([pg,str(scr),'randPathScores','.pkl']))
+#		if grf in sum_file_swap:
+#			grf = sum_file_swap[grf] # swap in the case of long file names
 		pg_scores = pickle.load(open(grf,'rb'))
 		avg = np.mean(pg_scores)
 		if (s-avg) >0:
@@ -113,13 +123,18 @@ def create_visualization_files(dname,tlist,phen_file,net_file,outdir):
 
 def do_network(tlist,aname,outdir,dname,doCluster):
 	all_dics = []
-	for t in tlist:
-		t = clean_node_name(t)
-		tfile = os.path.join(fpath,'pth_dic_'+t+'_scr'+scr+'.pkl')
-		if tfile in file_swap:
-			tfile = file_swap[tfile]
-		if not os.path.exists(tfile):
-			tfile = os.path.join(fpath,'pth_dic_'+t.capitalize()+'_scr'+scr+'.pkl')
+	for raw_t in tlist:
+		t = clean_node_name(raw_t)
+		### NEW 10-16-18
+		if raw_t in new_hash_net:
+			tfile = new_hash_net[raw_t.upper()]
+		elif t in new_hash_net:
+			tfile = new_hash_net[t].upper()
+#		tfile = os.path.join(fpath,'pth_dic_'+t+'_scr'+scr+'.pkl')
+#		if tfile in file_swap:
+#			tfile = file_swap[tfile]
+#		if not os.path.exists(tfile):
+#			tfile = os.path.join(fpath,'pth_dic_'+t.capitalize()+'_scr'+scr+'.pkl')
 		if os.path.exists(tfile):
 			tdic = pickle.load(open(tfile,'rb'))
 			outf = open(os.path.join(outdir,'_'.join([t,'neighborhood','.txt'])),'w')

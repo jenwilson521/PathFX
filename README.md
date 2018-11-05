@@ -11,6 +11,6 @@ PathFX was created in Python and is written in python version 3.6.0 and the nece
 ## Running PathFX
 We have included an example script 'run_PathFX.py' to demonstrate usage of algorithm parameters.
 
-## Phenotype Clustering with UMLS
-Enabling the phenotype clustering feature requires a local installation of the UMLS metathesaurus. Please register for UMLS access through the NLM and follow their guidance for installation. We used version 2017AA. Installation of UMLS is not required if you do not wish to use the phenotype clustering feature.
+## Phenotype Clustering with UMLS, umls-interface.pl, and umls-similarity.pl
+Enabling the phenotype clustering feature requires a local installation of the UMLS metathesaurus and two perl packages. Please register for UMLS access through the NLM and follow their guidance for installation. We used version 2017AA.  We have also provided the configuration file for calling the umls-similarity.pl script. Installation of UMLS, and perl packages is not required if you do not wish to use the phenotype clustering feature.
 *** Ask Mike to share his UMLS installation document

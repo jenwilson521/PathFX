@@ -20,6 +20,7 @@ rdb = dict([(v.lower(),k) for (k,v) in db.items()])
 ## sum_file_swap = pickle.load(open(os.path.join('..','rscs','summary_file_swap.pkl'),'rb'))
 new_hash_net = pickle.load(open(os.path.join('..','rscs','gene_to_hash_map.pkl'),'rb'))
 new_hash_sum_files = pickle.load(open(os.path.join('..','rscs','gene_to_sum_hash_map.pkl'),'rb'))
+unn = pickle.load(open(os.path.join('..','rscs','unique_network_nodes.pkl'),'rb'))
 
 # default results
 intome_data = {'cardiac':('../rsc/FIXTHIS','0.96')} # tuples of file paths and score values 
@@ -186,7 +187,9 @@ def main():
 
 	(options,args) = parser.parse_args()
 	if options.dtargs:
+		print(options.dtargs)
 		targets = [t for t in options.dtargs.split(',')]
+		print('user provided '+str(len(targets))+' targets')
 	else:
 		targets = []
 
@@ -194,12 +197,15 @@ def main():
 	dname = options.dname
 	if dname in dtd:
 		targets+= dtd[dname]
+		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
 	elif dname.lower() in rdb:
 		dname = rdb[dname.lower()]
 		targets+= dtd[dname]	
+		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
 	elif dname.replace(' ','') in rdb:
 		dname = rdb[dname.replace(' ','')]
 		targets+= dtd[dname]
+		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
 	else:
 		print('No drug bank targets found')
 	targets = list(set(targets)) # remove redundancies
@@ -222,7 +228,14 @@ def main():
 
 	print('\n'+dname)
 	print('results in: '+outdir)
-	print('targets: '+' '.join(targets))
+	print('full target list: '+' '.join(targets))
+
+	# check which targets are in the network
+	t_in_n = list(set(targets).intersection(set(unn)))
+	if len(t_in_n) > 0:
+		print('for analysis (targets within the interactome): '+' '.join(t_in_n))
+	else:
+		print('no targets provided or none were found in the interaction network')
 
 	doCluster = options.docluster
 

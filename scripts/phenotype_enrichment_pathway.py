@@ -127,6 +127,7 @@ def do_network(tlist,aname,outdir,dname,doCluster):
 	for raw_t in tlist:
 		t = clean_node_name(raw_t)
 		### NEW 10-16-18
+		tfile = ''
 		if raw_t in new_hash_net:
 			tfile = new_hash_net[raw_t.upper()]
 		elif t in new_hash_net:

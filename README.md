@@ -14,3 +14,9 @@ We have included an example script 'run_PathFX.py' to demonstrate usage of algor
 ## Phenotype Clustering with UMLS, umls-interface.pl, and umls-similarity.pl
 Enabling the phenotype clustering feature requires a local installation of the UMLS metathesaurus and two perl packages. Please register for UMLS access through the NLM and follow their guidance for installation (We used version 2017AA). We have also provided the configuration file for calling the umls-similarity.pl script and a protocol for installing UMLS and the perl packages. Installation of UMLS, and perl packages is not required if you do not wish to use the phenotype clustering feature.
 
+
+## PathFXweb
+We have also created PathFXweb, a full-service web application for using the PathFX algorithm. Please visit https://www.pathfxweb.net/ for more information.
+
+## Contact/Support
+If you have questions, comments, or feedback about PathFX or PathFXweb, please contact pathfx_support@googlegroups.com.

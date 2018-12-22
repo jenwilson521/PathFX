@@ -198,15 +198,22 @@ def main():
 	dname = options.dname
 	if dname in dtd:
 		targets+= dtd[dname]
-		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
+		print('PathFX added '+str(len(targets))+' targets from Drugbank')
+		# check for spaces
+		dname = dname.replace(' ','')
+	elif dname.capitalize() in dtd:
+		targets+= dtd[dname.capitalize()]
+		print('PathFX added '+str(len(targets))+' targets from Drugbank')
+		# check for spaces
+		dname = dname.capitalize().replace(' ','')
 	elif dname.lower() in rdb:
 		dname = rdb[dname.lower()]
 		targets+= dtd[dname]	
-		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
+		print('PathFX added '+str(len(targets))+' targets from Drugbank')
 	elif dname.replace(' ','') in rdb:
 		dname = rdb[dname.replace(' ','')]
 		targets+= dtd[dname]
-		print('PathFX added '+str(len(dtd[dname]))+' targets from Drugbank')
+		print('PathFX added '+str(len(targets))+' targets from Drugbank')
 	else:
 		print('No drug bank targets found')
 	targets = list(set(targets)) # remove redundancies

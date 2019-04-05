@@ -89,7 +89,7 @@ def write_to_output(sig_assoc,outfname):
 
 def write_sources(sig_assoc,outfname):
 	outf = open(outfname,'w')
-	hed = ['Gene','CUI','Source Databases','\n']
+	hed = ['Gene','CUI','Phenotype','Source Databases','\n']
 	outf.write('\t'.join(hed))
 	for [rank,phen_term,phen,assnet,assint,prb,BH,gene_str] in sig_assoc:
 		for g in gene_str.split(','):

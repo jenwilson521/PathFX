@@ -4,3 +4,6 @@ scripts/characterize_phenotypes.py
 Pfx050120_exec_code*
 results/pathfx_testv2/*
 results/*_fulvestrant/
+Pfx051120_exec_code.zip
+results/phenotype_characterization/
+scripts/run_PathFX_test.py

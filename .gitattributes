@@ -1,0 +1,11 @@
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017021.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017022.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017026.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017027.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017024.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017015.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017010.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0170/spn017011.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0235/spn023569.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0245/spn024532.pkl filter=lfs diff=lfs merge=lfs -text
+results/pfx041520_dfs_all_nodes/thr_0.82/specific_nbhds_mp/spn0243/spn024329.pkl filter=lfs diff=lfs merge=lfs -text

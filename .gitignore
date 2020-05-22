@@ -6,5 +6,4 @@ results/pathfx_testv2/*
 results/*_fulvestrant/
 Pfx051120_exec_code.zip
 results/phenotype_characterization/
-scripts/run_PathFX_test.py
 *spn_hash_batch_*.pkl

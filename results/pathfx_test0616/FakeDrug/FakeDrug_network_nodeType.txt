@@ -1,0 +1,76 @@
+node_name	node_type	
+FakeDrug	drug	
+CDK7	drug_target	
+CDK4	drug_target	
+Xeroderma pigmentosum	phenotype	
+Premature aging syndrome	phenotype	
+Xeroderma pigmentosum, group D	phenotype	
+Cockayne syndrome	phenotype	
+Werdnig-Hoffmann disease	phenotype	
+Xeroderma pigmentosum, type 1	phenotype	
+Trichothiodystrophy Syndromes	phenotype	
+Hamartoma Syndrome, Multiple	phenotype	
+Freckles	phenotype	
+Xerosis	phenotype	
+Dry skin	phenotype	
+Malignant neoplasm of skin	phenotype	
+CNS disorder	phenotype	
+Cockayne syndrome type A	phenotype	
+Spinal muscular atrophy	phenotype	
+Reduced tensile strength of hair	phenotype	
+Fragile hair	phenotype	
+Fractured hair	phenotype	
+Brittle hair	phenotype	
+Photosensitivity of skin	phenotype	
+Hepatocarcinogenesis	phenotype	
+Pituitary carcinoma	phenotype	
+Abnormality of the pinna	phenotype	
+Xeroderma pigmentosum, group C	phenotype	
+Congenital Nonbullous Ichthyosiform Erythroderma	phenotype	
+Drug-Induced Stevens Johnson Syndrome	phenotype	
+Mycoplasma-Induced Stevens-Johnson Syndrome	phenotype	
+Stevens-Johnson Syndrome Toxic Epidermal Necrolysis Spectrum	phenotype	
+Keratitis	phenotype	
+Acoustic Neuroma	phenotype	
+Astrocytoma, low grade	phenotype	
+Glomerulonephritis, Membranoproliferative	phenotype	
+Paget Disease	phenotype	
+Malignant Neoplasms	phenotype	
+Hypertrophy of nose	phenotype	
+HP:0001007	phenotype	
+intracranial glioma	phenotype	
+Hyperplasia of nose	phenotype	
+Microphthalmos	phenotype	
+Confusion	phenotype	
+Cachexia	phenotype	
+Low Birth Weights	phenotype	
+Small for gestational age (disorder)	phenotype	
+Telangiectasis	phenotype	
+Carcinogenesis	phenotype	
+Decreased nerve conduction velocity	phenotype	
+Mental deterioration	phenotype	
+Small head	phenotype	
+MIXED LINEAGE LEUKEMIA	phenotype	
+Hirsutism	phenotype	
+Huntington's chorea	phenotype	
+Toxic Epidermal Necrolysis	phenotype	
+Stevens-Johnson Syndrome	phenotype	
+Anhidrosis	phenotype	
+Normal pressure hydrocephalus	phenotype	
+Leukodystrophy	phenotype	
+Hypogonadism	phenotype	
+Embryonal Carcinoma	phenotype	
+Angle class 3 malocclusion	phenotype	
+Angle class 2 malocclusion	phenotype	
+Intermittent abdominal pain	phenotype	
+Basal cell nevus	phenotype	
+Episodic abdominal pain	phenotype	
+Hereditary diffuse gastric cancer	phenotype	
+Dermatologic disorders	phenotype	
+Malocclusion	phenotype	
+Hyperinsulinemic hypoglycemia	phenotype	
+Reactive airway disease	phenotype	
+Skin Carcinogenesis	phenotype	
+Dysplastic Nevus	phenotype	
+Angiofibroma	phenotype	
+Hereditary gingival fibromatosis	phenotype	

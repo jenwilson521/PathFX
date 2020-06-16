@@ -1,0 +1,382 @@
+Gene	CUI	Source Databases	
+CDK4	C0043346	Xeroderma pigmentosum	DisGeNet	
+ERCC2	C0043346	Xeroderma pigmentosum	ClinVar,DisGeNet	
+ERCC3	C0043346	Xeroderma pigmentosum	ClinVar,DisGeNet	
+ERCC6	C0043346	Xeroderma pigmentosum	DisGeNet	
+GTF2H1	C0043346	Xeroderma pigmentosum	DisGeNet	
+GTF2H2	C0043346	Xeroderma pigmentosum	DisGeNet	
+GTF2H3	C0043346	Xeroderma pigmentosum	DisGeNet	
+GTF2H4	C0043346	Xeroderma pigmentosum	DisGeNet	
+GTF2H5	C0043346	Xeroderma pigmentosum	DisGeNet	
+RPA1	C0043346	Xeroderma pigmentosum	DisGeNet	
+USP7	C0043346	Xeroderma pigmentosum	DisGeNet	
+CDKN1A	C0231341	Premature aging syndrome	DisGeNet	
+CUL4A	C0231341	Premature aging syndrome	DisGeNet	
+ERCC2	C0231341	Premature aging syndrome	DisGeNet	
+ERCC3	C0231341	Premature aging syndrome	DisGeNet	
+ERCC6	C0231341	Premature aging syndrome	DisGeNet	
+ERCC8	C0231341	Premature aging syndrome	DisGeNet	
+GTF2H1	C0231341	Premature aging syndrome	DisGeNet	
+GTF2H2	C0231341	Premature aging syndrome	DisGeNet	
+GTF2H3	C0231341	Premature aging syndrome	DisGeNet	
+GTF2H4	C0231341	Premature aging syndrome	DisGeNet	
+GTF2H5	C0231341	Premature aging syndrome	DisGeNet	
+ERCC2	C0268138	Xeroderma pigmentosum, group D	ClinVar,DisGeNet	
+ERCC3	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+ERCC6	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+GTF2H1	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+GTF2H2	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+GTF2H3	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+GTF2H4	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+GTF2H5	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+MNAT1	C0268138	Xeroderma pigmentosum, group D	DisGeNet	
+ERCC2	C0009207	Cockayne syndrome	DisGeNet	
+ERCC3	C0009207	Cockayne syndrome	DisGeNet	
+ERCC6	C0009207	Cockayne syndrome	ClinVar,DisGeNet	
+ERCC8	C0009207	Cockayne syndrome	ClinVar,DisGeNet	
+GTF2H1	C0009207	Cockayne syndrome	DisGeNet	
+GTF2H2	C0009207	Cockayne syndrome	DisGeNet	
+GTF2H3	C0009207	Cockayne syndrome	DisGeNet	
+GTF2H4	C0009207	Cockayne syndrome	DisGeNet	
+GTF2H5	C0009207	Cockayne syndrome	DisGeNet	
+USP7	C0009207	Cockayne syndrome	DisGeNet	
+UVSSA	C0009207	Cockayne syndrome	DisGeNet	
+XAB2	C0009207	Cockayne syndrome	DisGeNet	
+ERCC2	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+ERCC3	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+GTF2H1	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+GTF2H2	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+GTF2H3	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+GTF2H4	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+GTF2H5	C0043116	Werdnig-Hoffmann disease	DisGeNet	
+ERCC2	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+ERCC3	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+GTF2H1	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+GTF2H2	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+GTF2H3	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+GTF2H4	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+GTF2H5	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+XAB2	C0268135	Xeroderma pigmentosum, type 1	DisGeNet	
+ERCC2	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+ERCC3	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2E1	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2E2	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2H1	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2H2	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2H3	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2H4	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+GTF2H5	C1955934	Trichothiodystrophy Syndromes	DisGeNet	
+CCNH	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+CDK7	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+ERCC2	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+ERCC3	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+GTF2H1	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+GTF2H2	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+GTF2H3	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+GTF2H4	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+GTF2H5	C0018553	Hamartoma Syndrome, Multiple	DisGeNet	
+CDK4	C0016689	Freckles	DisGeNet	
+ERCC2	C0016689	Freckles	DisGeNet	
+ERCC3	C0016689	Freckles	DisGeNet	
+ERCC6	C0016689	Freckles	DisGeNet	
+ERCC8	C0016689	Freckles	DisGeNet	
+UVSSA	C0016689	Freckles	DisGeNet	
+CDK4	C0259817	Xerosis	DisGeNet	
+ERCC2	C0259817	Xerosis	DisGeNet	
+ERCC3	C0259817	Xerosis	DisGeNet	
+ERCC6	C0259817	Xerosis	DisGeNet	
+ERCC8	C0259817	Xerosis	DisGeNet	
+GTF2E2	C0259817	Xerosis	DisGeNet	
+UVSSA	C0259817	Xerosis	DisGeNet	
+CDK4	C0151908	Dry skin	DisGeNet	
+ERCC2	C0151908	Dry skin	DisGeNet	
+ERCC3	C0151908	Dry skin	DisGeNet	
+ERCC6	C0151908	Dry skin	DisGeNet	
+ERCC8	C0151908	Dry skin	DisGeNet	
+GTF2E2	C0151908	Dry skin	DisGeNet	
+UVSSA	C0151908	Dry skin	DisGeNet	
+CDK2	C0007114	Malignant neoplasm of skin	DisGeNet	
+CDK4	C0007114	Malignant neoplasm of skin	DisGeNet	
+CUL4A	C0007114	Malignant neoplasm of skin	DisGeNet	
+ERCC2	C0007114	Malignant neoplasm of skin	DisGeNet	
+ERCC3	C0007114	Malignant neoplasm of skin	DisGeNet	
+GTF2H1	C0007114	Malignant neoplasm of skin	DisGeNet	
+GTF2H2	C0007114	Malignant neoplasm of skin	DisGeNet	
+GTF2H3	C0007114	Malignant neoplasm of skin	DisGeNet	
+GTF2H4	C0007114	Malignant neoplasm of skin	DisGeNet	
+GTF2H5	C0007114	Malignant neoplasm of skin	DisGeNet	
+ERCC2	C0007682	CNS disorder	DisGeNet	
+ERCC3	C0007682	CNS disorder	DisGeNet	
+GTF2H1	C0007682	CNS disorder	DisGeNet	
+GTF2H2	C0007682	CNS disorder	DisGeNet	
+GTF2H3	C0007682	CNS disorder	DisGeNet	
+GTF2H4	C0007682	CNS disorder	DisGeNet	
+GTF2H5	C0007682	CNS disorder	DisGeNet	
+CDKN1A	C0751039	Cockayne syndrome type A	DisGeNet	
+ERCC2	C0751039	Cockayne syndrome type A	DisGeNet	
+ERCC6	C0751039	Cockayne syndrome type A	DisGeNet	
+ERCC8	C0751039	Cockayne syndrome type A	ClinVar,DisGeNet	
+XAB2	C0751039	Cockayne syndrome type A	DisGeNet	
+ERCC2	C0026847	Spinal muscular atrophy	DisGeNet	
+ERCC3	C0026847	Spinal muscular atrophy	DisGeNet	
+GTF2H1	C0026847	Spinal muscular atrophy	DisGeNet	
+GTF2H2	C0026847	Spinal muscular atrophy	DisGeNet	
+GTF2H3	C0026847	Spinal muscular atrophy	DisGeNet	
+GTF2H4	C0026847	Spinal muscular atrophy	DisGeNet	
+GTF2H5	C0026847	Spinal muscular atrophy	DisGeNet	
+MNAT1	C0026847	Spinal muscular atrophy	DisGeNet	
+ERCC2	C1851868	Reduced tensile strength of hair	DisGeNet	
+ERCC3	C1851868	Reduced tensile strength of hair	DisGeNet	
+GTF2E2	C1851868	Reduced tensile strength of hair	DisGeNet	
+GTF2H5	C1851868	Reduced tensile strength of hair	DisGeNet	
+ERCC2	C1970705	Fragile hair	DisGeNet	
+ERCC3	C1970705	Fragile hair	DisGeNet	
+GTF2E2	C1970705	Fragile hair	DisGeNet	
+GTF2H5	C1970705	Fragile hair	DisGeNet	
+ERCC2	C4072837	Fractured hair	DisGeNet	
+ERCC3	C4072837	Fractured hair	DisGeNet	
+GTF2E2	C4072837	Fractured hair	DisGeNet	
+GTF2H5	C4072837	Fractured hair	DisGeNet	
+ERCC2	C0263490	Brittle hair	DisGeNet	
+ERCC3	C0263490	Brittle hair	DisGeNet	
+GTF2E2	C0263490	Brittle hair	DisGeNet	
+GTF2H5	C0263490	Brittle hair	DisGeNet	
+ERCC2	C0349506	Photosensitivity of skin	DisGeNet	
+ERCC3	C0349506	Photosensitivity of skin	DisGeNet	
+ERCC6	C0349506	Photosensitivity of skin	DisGeNet	
+ERCC8	C0349506	Photosensitivity of skin	DisGeNet	
+UVSSA	C0349506	Photosensitivity of skin	DisGeNet	
+CDK2	C1512409	Hepatocarcinogenesis	DisGeNet	
+CDKN1A	C1512409	Hepatocarcinogenesis	DisGeNet	
+CDKN1B	C1512409	Hepatocarcinogenesis	DisGeNet	
+CUL4A	C1512409	Hepatocarcinogenesis	DisGeNet	
+ERCC2	C1512409	Hepatocarcinogenesis	DisGeNet	
+ERCC3	C1512409	Hepatocarcinogenesis	DisGeNet	
+GTF2H1	C1512409	Hepatocarcinogenesis	DisGeNet	
+GTF2H2	C1512409	Hepatocarcinogenesis	DisGeNet	
+GTF2H3	C1512409	Hepatocarcinogenesis	DisGeNet	
+GTF2H4	C1512409	Hepatocarcinogenesis	DisGeNet	
+GTF2H5	C1512409	Hepatocarcinogenesis	DisGeNet	
+CDK2	C0346300	Pituitary carcinoma	DisGeNet	
+CDK4	C0346300	Pituitary carcinoma	DisGeNet	
+CDKN1B	C0346300	Pituitary carcinoma	DisGeNet	
+CUL4B	C0857379	Abnormality of the pinna	DisGeNet	
+EP300	C0857379	Abnormality of the pinna	DisGeNet	
+ERCC6	C0857379	Abnormality of the pinna	DisGeNet	
+ERCC8	C0857379	Abnormality of the pinna	DisGeNet	
+CDKN1B	C2752147	Xeroderma pigmentosum, group C	DisGeNet	
+CUL4A	C2752147	Xeroderma pigmentosum, group C	DisGeNet	
+ERCC2	C2752147	Xeroderma pigmentosum, group C	DisGeNet	
+ERCC2	C0079154	Congenital Nonbullous Ichthyosiform Erythroderma	DisGeNet	
+ERCC3	C0079154	Congenital Nonbullous Ichthyosiform Erythroderma	DisGeNet	
+GTF2H5	C0079154	Congenital Nonbullous Ichthyosiform Erythroderma	DisGeNet	
+CUL4A	C1274933	Drug-Induced Stevens Johnson Syndrome	DisGeNet	
+EP300	C1274933	Drug-Induced Stevens Johnson Syndrome	DisGeNet	
+RBX1	C1274933	Drug-Induced Stevens Johnson Syndrome	DisGeNet	
+CUL4A	C3658301	Mycoplasma-Induced Stevens-Johnson Syndrome	DisGeNet	
+EP300	C3658301	Mycoplasma-Induced Stevens-Johnson Syndrome	DisGeNet	
+RBX1	C3658301	Mycoplasma-Induced Stevens-Johnson Syndrome	DisGeNet	
+CUL4A	C3658302	Stevens-Johnson Syndrome Toxic Epidermal Necrolysis Spectrum	DisGeNet	
+EP300	C3658302	Stevens-Johnson Syndrome Toxic Epidermal Necrolysis Spectrum	DisGeNet	
+RBX1	C3658302	Stevens-Johnson Syndrome Toxic Epidermal Necrolysis Spectrum	DisGeNet	
+ERCC2	C0022568	Keratitis	DisGeNet	
+ERCC3	C0022568	Keratitis	DisGeNet	
+ERCC6	C0022568	Keratitis	DisGeNet	
+POLR2B	C0022568	Keratitis	DisGeNet	
+CCNH	C0027859	Acoustic Neuroma	DisGeNet	
+CDKN1A	C0027859	Acoustic Neuroma	DisGeNet	
+CDKN1B	C0027859	Acoustic Neuroma	DisGeNet	
+ERCC2	C0027859	Acoustic Neuroma	DisGeNet	
+CDK4	C1314694	Astrocytoma, low grade	DisGeNet	
+CDKN1A	C1314694	Astrocytoma, low grade	DisGeNet	
+CDKN1B	C1314694	Astrocytoma, low grade	DisGeNet	
+CDK2	C0017662	Glomerulonephritis, Membranoproliferative	DisGeNet	
+CDKN1B	C0017662	Glomerulonephritis, Membranoproliferative	DisGeNet	
+EP300	C0017662	Glomerulonephritis, Membranoproliferative	DisGeNet	
+GTF2H1	C1368019	Paget Disease	DisGeNet	
+TAF12	C1368019	Paget Disease	DisGeNet	
+TAF2	C1368019	Paget Disease	DisGeNet	
+CDK2	C0006826	Malignant Neoplasms	DisGeNet	
+CDK4	C0006826	Malignant Neoplasms	DisGeNet	
+CDK9	C0006826	Malignant Neoplasms	DisGeNet	
+CDKN1A	C0006826	Malignant Neoplasms	DisGeNet	
+CDKN1B	C0006826	Malignant Neoplasms	DisGeNet	
+CUL4A	C0006826	Malignant Neoplasms	DisGeNet	
+CUL4B	C0006826	Malignant Neoplasms	DisGeNet	
+ELOC	C0006826	Malignant Neoplasms	DisGeNet	
+EP300	C0006826	Malignant Neoplasms	DisGeNet	
+ERCC2	C0006826	Malignant Neoplasms	DisGeNet	
+ERCC3	C0006826	Malignant Neoplasms	DisGeNet	
+ERCC6	C0006826	Malignant Neoplasms	DisGeNet	
+GTF2H1	C0006826	Malignant Neoplasms	DisGeNet	
+POLR2E	C0006826	Malignant Neoplasms	DisGeNet	
+RPRD1B	C0006826	Malignant Neoplasms	DisGeNet	
+XAB2	C0006826	Malignant Neoplasms	DisGeNet	
+CUL4B	C1400105	Hypertrophy of nose	DisGeNet	
+EP300	C1400105	Hypertrophy of nose	DisGeNet	
+TAF6	C1400105	Hypertrophy of nose	DisGeNet	
+EP300	C3612958	HP:0001007	HumPhenOnt	
+ERCC6	C3612958	HP:0001007	HumPhenOnt	
+TAF1	C3612958	HP:0001007	HumPhenOnt	
+CDK4	C3665419	intracranial glioma	DisGeNet	
+CDKN1A	C3665419	intracranial glioma	DisGeNet	
+ERCC2	C3665419	intracranial glioma	DisGeNet	
+CUL4B	C4280629	Hyperplasia of nose	DisGeNet	
+EP300	C4280629	Hyperplasia of nose	DisGeNet	
+TAF6	C4280629	Hyperplasia of nose	DisGeNet	
+CDK2	C0026010	Microphthalmos	DisGeNet	
+CDK4	C0026010	Microphthalmos	DisGeNet	
+CDKN1B	C0026010	Microphthalmos	DisGeNet	
+ERCC2	C0026010	Microphthalmos	DisGeNet	
+ERCC3	C0026010	Microphthalmos	DisGeNet	
+ERCC6	C0026010	Microphthalmos	DisGeNet	
+ERCC2	C0009676	Confusion	DisGeNet	
+ERCC3	C0009676	Confusion	DisGeNet	
+TBP	C0009676	Confusion	DisGeNet	
+CUL4B	C0006625	Cachexia	DisGeNet	
+ERCC2	C0006625	Cachexia	DisGeNet	
+ERCC3	C0006625	Cachexia	DisGeNet	
+RPS27A	C0006625	Cachexia	DisGeNet	
+UBC	C0006625	Cachexia	DisGeNet	
+ERCC2	C0024032	Low Birth Weights	DisGeNet	
+ERCC6	C0024032	Low Birth Weights	DisGeNet	
+GTF2E2	C0024032	Low Birth Weights	DisGeNet	
+TAF13	C0024032	Low Birth Weights	DisGeNet	
+ERCC2	C0235991	Small for gestational age (disorder)	DisGeNet	
+ERCC6	C0235991	Small for gestational age (disorder)	DisGeNet	
+GTF2E2	C0235991	Small for gestational age (disorder)	DisGeNet	
+TAF13	C0235991	Small for gestational age (disorder)	DisGeNet	
+ERCC2	C0039446	Telangiectasis	DisGeNet	
+ERCC6	C0039446	Telangiectasis	DisGeNet	
+UVSSA	C0039446	Telangiectasis	DisGeNet	
+CCNH	C0596263	Carcinogenesis	DisGeNet	
+CDK2	C0596263	Carcinogenesis	DisGeNet	
+CDK4	C0596263	Carcinogenesis	DisGeNet	
+CDK9	C0596263	Carcinogenesis	DisGeNet	
+CDKN1A	C0596263	Carcinogenesis	DisGeNet	
+CDKN1B	C0596263	Carcinogenesis	DisGeNet	
+CUL4A	C0596263	Carcinogenesis	DisGeNet	
+CUL4B	C0596263	Carcinogenesis	DisGeNet	
+ELOB	C0596263	Carcinogenesis	DisGeNet	
+EP300	C0596263	Carcinogenesis	DisGeNet	
+ERCC2	C0596263	Carcinogenesis	DisGeNet	
+ERCC3	C0596263	Carcinogenesis	DisGeNet	
+ERCC6	C0596263	Carcinogenesis	DisGeNet	
+GTF2B	C0596263	Carcinogenesis	DisGeNet	
+GTF2H1	C0596263	Carcinogenesis	DisGeNet	
+GTF2H2	C0596263	Carcinogenesis	DisGeNet	
+GTF2H3	C0596263	Carcinogenesis	DisGeNet	
+GTF2H4	C0596263	Carcinogenesis	DisGeNet	
+GTF2H5	C0596263	Carcinogenesis	DisGeNet	
+MNAT1	C0596263	Carcinogenesis	DisGeNet	
+POLR2A	C0596263	Carcinogenesis	DisGeNet	
+POLR2C	C0596263	Carcinogenesis	DisGeNet	
+RBX1	C0596263	Carcinogenesis	DisGeNet	
+RPA2	C0596263	Carcinogenesis	DisGeNet	
+RPA3	C0596263	Carcinogenesis	DisGeNet	
+RPRD1B	C0596263	Carcinogenesis	DisGeNet	
+RPS27A	C0596263	Carcinogenesis	DisGeNet	
+TBP	C0596263	Carcinogenesis	DisGeNet	
+UBC	C0596263	Carcinogenesis	DisGeNet	
+USP7	C0596263	Carcinogenesis	DisGeNet	
+ERCC3	C1857640	Decreased nerve conduction velocity	DisGeNet	
+ERCC6	C1857640	Decreased nerve conduction velocity	DisGeNet	
+ERCC8	C1857640	Decreased nerve conduction velocity	DisGeNet	
+ERCC2	C0234985	Mental deterioration	DisGeNet	
+ERCC6	C0234985	Mental deterioration	DisGeNet	
+TBP	C0234985	Mental deterioration	DisGeNet	
+EP300	C0424688	Small head	DisGeNet	
+ERCC2	C0424688	Small head	DisGeNet	
+ERCC3	C0424688	Small head	DisGeNet	
+ERCC6	C0424688	Small head	DisGeNet	
+ERCC8	C0424688	Small head	DisGeNet	
+GTF2E2	C0424688	Small head	DisGeNet	
+TAF13	C0424688	Small head	DisGeNet	
+TAF2	C0424688	Small head	DisGeNet	
+TAF6	C0424688	Small head	DisGeNet	
+CDK9	C3888194	MIXED LINEAGE LEUKEMIA	DisGeNet	
+CDKN1B	C3888194	MIXED LINEAGE LEUKEMIA	DisGeNet	
+GTF2A1	C3888194	MIXED LINEAGE LEUKEMIA	DisGeNet	
+GTF2A2	C3888194	MIXED LINEAGE LEUKEMIA	DisGeNet	
+USP7	C3888194	MIXED LINEAGE LEUKEMIA	DisGeNet	
+EP300	C0019572	Hirsutism	DisGeNet	
+ERCC6	C0019572	Hirsutism	DisGeNet	
+TAF6	C0019572	Hirsutism	DisGeNet	
+CDKN1A	C0020179	Huntington's chorea	DisGeNet	
+CDKN1B	C0020179	Huntington's chorea	DisGeNet	
+ERCC6	C0020179	Huntington's chorea	DisGeNet	
+GTF2H1	C0020179	Huntington's chorea	DisGeNet	
+MNAT1	C0020179	Huntington's chorea	DisGeNet	
+TAF4	C0020179	Huntington's chorea	DisGeNet	
+TBP	C0020179	Huntington's chorea	DisGeNet	
+UBB	C0020179	Huntington's chorea	DisGeNet	
+UBC	C0020179	Huntington's chorea	DisGeNet	
+CUL4A	C0014518	Toxic Epidermal Necrolysis	DisGeNet	
+EP300	C0014518	Toxic Epidermal Necrolysis	DisGeNet	
+RBX1	C0014518	Toxic Epidermal Necrolysis	DisGeNet	
+CUL4A	C0038325	Stevens-Johnson Syndrome	DisGeNet	
+EP300	C0038325	Stevens-Johnson Syndrome	DisGeNet	
+RBX1	C0038325	Stevens-Johnson Syndrome	DisGeNet	
+ERCC6	C0003028	Anhidrosis	DisGeNet	
+ERCC8	C0003028	Anhidrosis	DisGeNet	
+ERCC6	C0020258	Normal pressure hydrocephalus	DisGeNet	
+ERCC8	C0020258	Normal pressure hydrocephalus	DisGeNet	
+ERCC2	C0023520	Leukodystrophy	DisGeNet	
+ERCC3	C0023520	Leukodystrophy	DisGeNet	
+ERCC6	C0023520	Leukodystrophy	DisGeNet	
+ERCC8	C0023520	Leukodystrophy	DisGeNet	
+GTF2H5	C0023520	Leukodystrophy	DisGeNet	
+CUL4B	C0020619	Hypogonadism	DisGeNet	
+ERCC2	C0020619	Hypogonadism	DisGeNet	
+ERCC3	C0020619	Hypogonadism	DisGeNet	
+ERCC6	C0020619	Hypogonadism	DisGeNet	
+ERCC8	C0020619	Hypogonadism	DisGeNet	
+CDK4	C0206659	Embryonal Carcinoma	DisGeNet	
+CDKN1B	C0206659	Embryonal Carcinoma	DisGeNet	
+GTF2A1	C0206659	Embryonal Carcinoma	DisGeNet	
+GTF2A2	C0206659	Embryonal Carcinoma	DisGeNet	
+TBP	C0206659	Embryonal Carcinoma	DisGeNet	
+EP300	C4280613	Angle class 3 malocclusion	DisGeNet	
+ERCC6	C4280613	Angle class 3 malocclusion	DisGeNet	
+ERCC8	C4280613	Angle class 3 malocclusion	DisGeNet	
+EP300	C4280614	Angle class 2 malocclusion	DisGeNet	
+ERCC6	C4280614	Angle class 2 malocclusion	DisGeNet	
+ERCC8	C4280614	Angle class 2 malocclusion	DisGeNet	
+CDKN1A	C0262527	Intermittent abdominal pain	DisGeNet	
+CDKN1B	C0262527	Intermittent abdominal pain	DisGeNet	
+ERCC2	C1862314	Basal cell nevus	DisGeNet	
+ERCC3	C1862314	Basal cell nevus	DisGeNet	
+CDKN1A	C3808022	Episodic abdominal pain	DisGeNet	
+CDKN1B	C3808022	Episodic abdominal pain	DisGeNet	
+CDK4	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+CDKN1A	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+CDKN1B	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+DDB1	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+ERCC2	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+PRPF19	C1708349	Hereditary diffuse gastric cancer	DisGeNet	
+ERCC2	C0037274	Dermatologic disorders	DisGeNet	
+ERCC3	C0037274	Dermatologic disorders	DisGeNet	
+GTF2H1	C0037274	Dermatologic disorders	DisGeNet	
+GTF2H2	C0037274	Dermatologic disorders	DisGeNet	
+GTF2H3	C0037274	Dermatologic disorders	DisGeNet	
+GTF2H4	C0037274	Dermatologic disorders	DisGeNet	
+GTF2H5	C0037274	Dermatologic disorders	DisGeNet	
+EP300	C0024636	Malocclusion	DisGeNet	
+ERCC6	C0024636	Malocclusion	DisGeNet	
+ERCC8	C0024636	Malocclusion	DisGeNet	
+CDKN1A	C1864903	Hyperinsulinemic hypoglycemia	DisGeNet	
+CDKN1B	C1864903	Hyperinsulinemic hypoglycemia	DisGeNet	
+ERCC2	C3714497	Reactive airway disease	DisGeNet	
+GTF2H5	C3714497	Reactive airway disease	DisGeNet	
+CDK2	C1519346	Skin Carcinogenesis	DisGeNet	
+CDK4	C1519346	Skin Carcinogenesis	DisGeNet	
+ERCC2	C1519346	Skin Carcinogenesis	DisGeNet	
+GTF2H5	C1519346	Skin Carcinogenesis	DisGeNet	
+CDK2	C0205748	Dysplastic Nevus	DisGeNet	
+CDK4	C0205748	Dysplastic Nevus	DisGeNet	
+CDKN1A	C0205748	Dysplastic Nevus	DisGeNet	
+CDKN1A	C0206731	Angiofibroma	DisGeNet	
+CDKN1B	C0206731	Angiofibroma	DisGeNet	
+CDK2	C0399440	Hereditary gingival fibromatosis	DisGeNet	
+CDK9	C0399440	Hereditary gingival fibromatosis	DisGeNet	
+CDKN1B	C0399440	Hereditary gingival fibromatosis	DisGeNet	

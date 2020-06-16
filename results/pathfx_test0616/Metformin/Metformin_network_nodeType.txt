@@ -1,0 +1,50 @@
+node_name	node_type	
+Metformin	drug	
+SLC22A1	drug_target	
+GPD1	drug_target	
+SLC22A2	drug_target	
+PRKAB1	drug_target	
+SLC22A3	drug_target	
+SLC47A1	drug_target	
+ETFDH	drug_target	
+SLC47A2	drug_target	
+Wolff-Parkinson-White pattern	phenotype	
+Primary familial hypertrophic cardiomyopathy	phenotype	
+Lipoprotein(a)	phenotype	
+Lipoprotein(a)	phenotype	
+Oculopharyngeal muscular dystrophy	phenotype	
+Lipoprotein(a)	phenotype	
+Fibromyalgia	phenotype	
+Mammary Ductal Carcinoma	phenotype	
+Glomerular filtration rate finding	phenotype	
+Creatinine measurement, serum (procedure)	phenotype	
+Acidosis, Lactic	phenotype	
+Lipoprotein(a)	phenotype	
+Lipoprotein (a) measurement	phenotype	
+Ductal Breast Carcinoma	phenotype	
+Lipoprotein(a)	phenotype	
+Metabolic Diseases	phenotype	
+Diabetes mellitus type 2	phenotype	
+Apolipoprotein A-I	phenotype	
+Lipoprotein(a)	phenotype	
+Intrahepatic Cholestasis	phenotype	
+Malignant Pleural Mesothelioma	phenotype	
+Bladder neck obstruction	phenotype	
+Congenital Heart Defects	phenotype	
+Infection by Cryptococcus neoformans	phenotype	
+Vascular inflammations	phenotype	
+Renal tubular disorder	phenotype	
+Insulin Sensitivity	phenotype	
+Hereditary hemochromatosis	phenotype	
+Lipoprotein(a)	phenotype	
+Cholestasis, Extrahepatic	phenotype	
+Chronic Kidney Diseases	phenotype	
+Acute myeloid leukemia	phenotype	
+Tuberous sclerosis syndrome	phenotype	
+Non-alcoholic Fatty Liver Disease	phenotype	
+Adenocarcinoma of pancreas	phenotype	
+Cardiomyopathy	phenotype	
+Endothelial dysfunction	phenotype	
+Solid Neoplasm	phenotype	
+Malignant neoplasm of large intestine	phenotype	
+Experimental Organism Basal Cell Carcinoma	phenotype	

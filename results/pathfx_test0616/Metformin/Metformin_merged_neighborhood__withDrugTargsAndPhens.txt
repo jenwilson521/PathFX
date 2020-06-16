@@ -1,0 +1,166 @@
+node1	node2	edge_score	
+Metformin	SLC22A1	1.0	
+Metformin	GPD1	1.0	
+Metformin	SLC22A2	1.0	
+Metformin	PRKAB1	1.0	
+Metformin	SLC22A3	1.0	
+Metformin	SLC47A1	1.0	
+Metformin	ETFDH	1.0	
+Metformin	SLC47A2	1.0	
+SLC22A1	rs683369	0.99
+SLC22A1	rs12208357	0.99
+SLC22A1	rs35167514	0.99
+SLC22A1	SLC22A1*1, SLC22A1*2, SLC22A1*3, SLC22A1*4, SLC22A1*5, SLC22A1*6	0.99
+SLC22A1	rs72552763	0.99
+SLC22A1	SLC22A1*1, SLC22A1*2, SLC22A1*3, SLC22A1*4, SLC22A1*5	0.99
+SLC22A1	rs622342	0.99
+SLC22A1		1.0
+SLC22A1	rs594709	0.99
+SLC22A1	rs36056065	0.99
+SLC22A1	rs628031	0.99
+SLC22A1	rs34130495	0.99
+SLC22A1	rs2282143	0.99
+SLC22A2		1.0
+PRKAB1	PRKAG1	0.8612308866407148
+PRKAB1	PRKAA2	0.8634604349990593
+PRKAB1	PRKAG3	0.8612308866407148
+PRKAB1	PRKAG2	0.8633733976480712
+PRKAB1		1.0
+PRKAB1	PRKAB1	0.856843530995725
+PRKAB1	PRKAB2	0.8606438919743568
+PRKAB1	RB1CC1	0.8601870089582505
+PRKAB1	PRKAA1	0.8598961897409358
+PRKAB1	ULK1	0.8601870089582505
+PRKAB1	ATG101	0.8601870089582505
+PRKAB1	ATG13	0.8601870089582505
+SLC22A3		1.0
+SLC47A1		1.0
+SLC47A2		1.0
+Wolff-Parkinson-White pattern	PRKAA1	1.0	
+Wolff-Parkinson-White pattern	PRKAA2	1.0	
+Wolff-Parkinson-White pattern	PRKAB1	1.0	
+Wolff-Parkinson-White pattern	PRKAG2	1.0	
+Primary familial hypertrophic cardiomyopathy	PRKAA1	1.0	
+Primary familial hypertrophic cardiomyopathy	PRKAA2	1.0	
+Primary familial hypertrophic cardiomyopathy	PRKAB1	1.0	
+Primary familial hypertrophic cardiomyopathy	PRKAG2	1.0	
+Lipoprotein(a)	SLC22A1	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Lipoprotein(a)	SLC22A1	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Oculopharyngeal muscular dystrophy	PRKAA1	1.0	
+Oculopharyngeal muscular dystrophy	PRKAA2	1.0	
+Oculopharyngeal muscular dystrophy	PRKAB1	1.0	
+Lipoprotein(a)	SLC22A1	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Fibromyalgia	PRKAA1	1.0	
+Fibromyalgia	PRKAA2	1.0	
+Fibromyalgia	PRKAB1	1.0	
+Mammary Ductal Carcinoma	PRKAA1	1.0	
+Mammary Ductal Carcinoma	PRKAA2	1.0	
+Mammary Ductal Carcinoma	PRKAB1	1.0	
+Glomerular filtration rate finding	PRKAG2	1.0	
+Glomerular filtration rate finding	SLC22A2	1.0	
+Glomerular filtration rate finding	SLC47A1	1.0	
+Creatinine measurement, serum (procedure)	PRKAG2	1.0	
+Creatinine measurement, serum (procedure)	SLC22A2	1.0	
+Creatinine measurement, serum (procedure)	SLC47A1	1.0	
+Acidosis, Lactic	PRKAA1	1.0	
+Acidosis, Lactic	PRKAA2	1.0	
+Acidosis, Lactic	PRKAB1	1.0	
+Acidosis, Lactic	SLC47A1	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Lipoprotein (a) measurement	SLC22A1	1.0	
+Lipoprotein (a) measurement	SLC22A3	1.0	
+Ductal Breast Carcinoma	PRKAA1	1.0	
+Ductal Breast Carcinoma	PRKAA2	1.0	
+Ductal Breast Carcinoma	PRKAB1	1.0	
+Lipoprotein(a)	SLC22A1	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Metabolic Diseases	PRKAA1	1.0	
+Metabolic Diseases	PRKAA2	1.0	
+Metabolic Diseases	PRKAB1	1.0	
+Metabolic Diseases	PRKAG2	1.0	
+Metabolic Diseases	SLC22A1	1.0	
+Diabetes mellitus type 2	PRKAA1	1.0	
+Diabetes mellitus type 2	PRKAA2	1.0	
+Diabetes mellitus type 2	PRKAB1	1.0	
+Diabetes mellitus type 2	PRKAB2	1.0	
+Diabetes mellitus type 2	PRKAG2	1.0	
+Diabetes mellitus type 2	SLC22A1	1.0	
+Diabetes mellitus type 2	SLC22A2	1.0	
+Diabetes mellitus type 2	SLC22A3	1.0	
+Diabetes mellitus type 2	SLC47A1	1.0	
+Apolipoprotein A-I	SLC22A2	1.0	
+Apolipoprotein A-I	SLC22A3	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Intrahepatic Cholestasis	SLC22A1	1.0	
+Intrahepatic Cholestasis	SLC22A2	1.0	
+Malignant Pleural Mesothelioma	PRKAA1	1.0	
+Malignant Pleural Mesothelioma	PRKAA2	1.0	
+Malignant Pleural Mesothelioma	PRKAB1	1.0	
+Malignant Pleural Mesothelioma	SLC22A3	1.0	
+Bladder neck obstruction	SLC22A1	1.0	
+Bladder neck obstruction	SLC22A3	1.0	
+Congenital Heart Defects	PRKAA1	1.0	
+Congenital Heart Defects	PRKAA2	1.0	
+Congenital Heart Defects	PRKAB1	1.0	
+Congenital Heart Defects	PRKAG2	1.0	
+Infection by Cryptococcus neoformans	PRKAA2	1.0	
+Infection by Cryptococcus neoformans	PRKAB1	1.0	
+Vascular inflammations	PRKAA1	1.0	
+Vascular inflammations	PRKAA2	1.0	
+Vascular inflammations	PRKAB1	1.0	
+Renal tubular disorder	PRKAA2	1.0	
+Renal tubular disorder	PRKAB1	1.0	
+Insulin Sensitivity	PRKAA1	1.0	
+Insulin Sensitivity	PRKAA2	1.0	
+Hereditary hemochromatosis	PRKAA2	1.0	
+Hereditary hemochromatosis	PRKAB1	1.0	
+Hereditary hemochromatosis	SLC22A3	1.0	
+Lipoprotein(a)	SLC22A2	1.0	
+Lipoprotein(a)	SLC22A3	1.0	
+Cholestasis, Extrahepatic	SLC22A1	1.0	
+Cholestasis, Extrahepatic	SLC22A2	1.0	
+Chronic Kidney Diseases	PRKAG2	1.0	
+Chronic Kidney Diseases	SLC22A1	1.0	
+Chronic Kidney Diseases	SLC22A2	1.0	
+Chronic Kidney Diseases	SLC47A1	1.0	
+Acute myeloid leukemia	ATG13	1.0	
+Acute myeloid leukemia	PRKAA1	1.0	
+Acute myeloid leukemia	PRKAA2	1.0	
+Acute myeloid leukemia	PRKAB1	1.0	
+Acute myeloid leukemia	SLC22A1	1.0	
+Acute myeloid leukemia	SLC22A2	1.0	
+Acute myeloid leukemia	SLC22A3	1.0	
+Acute myeloid leukemia	ULK1	1.0	
+Tuberous sclerosis syndrome	PRKAA1	1.0	
+Tuberous sclerosis syndrome	PRKAA2	1.0	
+Tuberous sclerosis syndrome	PRKAB1	1.0	
+Non-alcoholic Fatty Liver Disease	PRKAA1	1.0	
+Non-alcoholic Fatty Liver Disease	PRKAA2	1.0	
+Non-alcoholic Fatty Liver Disease	PRKAB1	1.0	
+Non-alcoholic Fatty Liver Disease	SLC22A3	1.0	
+Adenocarcinoma of pancreas	PRKAA1	1.0	
+Adenocarcinoma of pancreas	PRKAA2	1.0	
+Cardiomyopathy	PRKAA1	1.0	
+Cardiomyopathy	PRKAA2	1.0	
+Cardiomyopathy	PRKAB1	1.0	
+Cardiomyopathy	PRKAG2	1.0	
+Endothelial dysfunction	PRKAA1	1.0	
+Endothelial dysfunction	PRKAA2	1.0	
+Endothelial dysfunction	PRKAB1	1.0	
+Solid Neoplasm	PRKAA1	1.0	
+Solid Neoplasm	SLC22A3	1.0	
+Malignant neoplasm of large intestine	PRKAA1	1.0	
+Malignant neoplasm of large intestine	PRKAA2	1.0	
+Malignant neoplasm of large intestine	PRKAB1	1.0	
+Malignant neoplasm of large intestine	SLC22A3	1.0	
+Experimental Organism Basal Cell Carcinoma	PRKAA1	1.0	
+Experimental Organism Basal Cell Carcinoma	PRKAA2	1.0	
+Experimental Organism Basal Cell Carcinoma	PRKAB1	1.0	

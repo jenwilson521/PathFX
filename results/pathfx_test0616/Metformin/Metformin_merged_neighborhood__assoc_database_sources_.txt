@@ -1,0 +1,129 @@
+Gene	CUI	Source Databases	
+PRKAA1	C0043202	Wolff-Parkinson-White pattern	DisGeNet	
+PRKAA2	C0043202	Wolff-Parkinson-White pattern	DisGeNet	
+PRKAB1	C0043202	Wolff-Parkinson-White pattern	DisGeNet	
+PRKAG2	C0043202	Wolff-Parkinson-White pattern	ClinVar,DisGeNet	
+PRKAA1	C0949658	Primary familial hypertrophic cardiomyopathy	DisGeNet	
+PRKAA2	C0949658	Primary familial hypertrophic cardiomyopathy	DisGeNet	
+PRKAB1	C0949658	Primary familial hypertrophic cardiomyopathy	DisGeNet	
+PRKAG2	C0949658	Primary familial hypertrophic cardiomyopathy	ClinVar,DisGeNet	
+SLC22A1	C0065058	Lipoprotein(a)	PheGenI	
+SLC22A2	C0065058	Lipoprotein(a)	PheGenI	
+SLC22A3	C0065058	Lipoprotein(a)	PheGenI	
+SLC22A1	C1979040	Lipoprotein(a)	PheGenI	
+SLC22A2	C1979040	Lipoprotein(a)	PheGenI	
+SLC22A3	C1979040	Lipoprotein(a)	PheGenI	
+PRKAA1	C0270952	Oculopharyngeal muscular dystrophy	DisGeNet	
+PRKAA2	C0270952	Oculopharyngeal muscular dystrophy	DisGeNet	
+PRKAB1	C0270952	Oculopharyngeal muscular dystrophy	DisGeNet	
+SLC22A1	C0677452	Lipoprotein(a)	PheGenI	
+SLC22A2	C0677452	Lipoprotein(a)	PheGenI	
+SLC22A3	C0677452	Lipoprotein(a)	PheGenI	
+PRKAA1	C0016053	Fibromyalgia	DisGeNet	
+PRKAA2	C0016053	Fibromyalgia	DisGeNet	
+PRKAB1	C0016053	Fibromyalgia	DisGeNet	
+PRKAA1	C0021367	Mammary Ductal Carcinoma	DisGeNet	
+PRKAA2	C0021367	Mammary Ductal Carcinoma	DisGeNet	
+PRKAB1	C0021367	Mammary Ductal Carcinoma	DisGeNet	
+PRKAG2	C1561549	Glomerular filtration rate finding	DisGeNet	
+SLC22A2	C1561549	Glomerular filtration rate finding	DisGeNet	
+SLC47A1	C1561549	Glomerular filtration rate finding	DisGeNet	
+PRKAG2	C0201976	Creatinine measurement, serum (procedure)	DisGeNet	
+SLC22A2	C0201976	Creatinine measurement, serum (procedure)	DisGeNet	
+SLC47A1	C0201976	Creatinine measurement, serum (procedure)	DisGeNet	
+PRKAA1	C0001125	Acidosis, Lactic	DisGeNet	
+PRKAA2	C0001125	Acidosis, Lactic	DisGeNet	
+PRKAB1	C0001125	Acidosis, Lactic	DisGeNet	
+SLC47A1	C0001125	Acidosis, Lactic	DisGeNet	
+SLC22A2	C0914069	Lipoprotein(a)	PheGenI	
+SLC22A3	C0914069	Lipoprotein(a)	PheGenI	
+SLC22A1	C1096202	Lipoprotein (a) measurement	DisGeNet	
+SLC22A3	C1096202	Lipoprotein (a) measurement	DisGeNet,PheGenI	
+PRKAA1	C1527349	Ductal Breast Carcinoma	DisGeNet	
+PRKAA2	C1527349	Ductal Breast Carcinoma	DisGeNet	
+PRKAB1	C1527349	Ductal Breast Carcinoma	DisGeNet	
+SLC22A1	C1507521	Lipoprotein(a)	PheGenI	
+SLC22A2	C1507521	Lipoprotein(a)	PheGenI	
+PRKAA1	C0025517	Metabolic Diseases	DisGeNet	
+PRKAA2	C0025517	Metabolic Diseases	DisGeNet	
+PRKAB1	C0025517	Metabolic Diseases	DisGeNet	
+PRKAG2	C0025517	Metabolic Diseases	DisGeNet	
+SLC22A1	C0025517	Metabolic Diseases	DisGeNet	
+PRKAA1	C0011860	Diabetes mellitus type 2	DisGeNet	
+PRKAA2	C0011860	Diabetes mellitus type 2	DisGeNet	
+PRKAB1	C0011860	Diabetes mellitus type 2	DisGeNet	
+PRKAB2	C0011860	Diabetes mellitus type 2	DisGeNet	
+PRKAG2	C0011860	Diabetes mellitus type 2	DisGeNet	
+SLC22A1	C0011860	Diabetes mellitus type 2	DisGeNet	
+SLC22A2	C0011860	Diabetes mellitus type 2	DisGeNet	
+SLC22A3	C0011860	Diabetes mellitus type 2	DisGeNet	
+SLC47A1	C0011860	Diabetes mellitus type 2	DisGeNet	
+SLC22A2	C0085201	Apolipoprotein A-I	PheGenI	
+SLC22A3	C0085201	Apolipoprotein A-I	PheGenI	
+SLC22A2	C0540214	Lipoprotein(a)	PheGenI	
+SLC22A3	C0540214	Lipoprotein(a)	PheGenI	
+SLC22A1	C0008372	Intrahepatic Cholestasis	DisGeNet	
+SLC22A2	C0008372	Intrahepatic Cholestasis	DisGeNet	
+PRKAA1	C0812413	Malignant Pleural Mesothelioma	DisGeNet	
+PRKAA2	C0812413	Malignant Pleural Mesothelioma	DisGeNet	
+PRKAB1	C0812413	Malignant Pleural Mesothelioma	DisGeNet	
+SLC22A3	C0812413	Malignant Pleural Mesothelioma	DisGeNet	
+SLC22A1	C0005694	Bladder neck obstruction	DisGeNet	
+SLC22A3	C0005694	Bladder neck obstruction	DisGeNet	
+PRKAA1	C0018798	Congenital Heart Defects	DisGeNet	
+PRKAA2	C0018798	Congenital Heart Defects	DisGeNet	
+PRKAB1	C0018798	Congenital Heart Defects	DisGeNet	
+PRKAG2	C0018798	Congenital Heart Defects	DisGeNet	
+PRKAA2	C0010414	Infection by Cryptococcus neoformans	DisGeNet	
+PRKAB1	C0010414	Infection by Cryptococcus neoformans	DisGeNet	
+PRKAA1	C0947751	Vascular inflammations	DisGeNet	
+PRKAA2	C0947751	Vascular inflammations	DisGeNet	
+PRKAB1	C0947751	Vascular inflammations	DisGeNet	
+PRKAA2	C0151747	Renal tubular disorder	DisGeNet	
+PRKAB1	C0151747	Renal tubular disorder	DisGeNet	
+PRKAA1	C0920563	Insulin Sensitivity	DisGeNet	
+PRKAA2	C0920563	Insulin Sensitivity	DisGeNet	
+PRKAA2	C0392514	Hereditary hemochromatosis	DisGeNet	
+PRKAB1	C0392514	Hereditary hemochromatosis	DisGeNet	
+SLC22A3	C0392514	Hereditary hemochromatosis	DisGeNet	
+SLC22A2	C0210611	Lipoprotein(a)	PheGenI	
+SLC22A3	C0210611	Lipoprotein(a)	PheGenI	
+SLC22A1	C0005398	Cholestasis, Extrahepatic	DisGeNet	
+SLC22A2	C0005398	Cholestasis, Extrahepatic	DisGeNet	
+PRKAG2	C1561643	Chronic Kidney Diseases	DisGeNet	
+SLC22A1	C1561643	Chronic Kidney Diseases	DisGeNet	
+SLC22A2	C1561643	Chronic Kidney Diseases	DisGeNet	
+SLC47A1	C1561643	Chronic Kidney Diseases	DisGeNet	
+ATG13	C0023467	Acute myeloid leukemia	DisGeNet	
+PRKAA1	C0023467	Acute myeloid leukemia	DisGeNet	
+PRKAA2	C0023467	Acute myeloid leukemia	DisGeNet	
+PRKAB1	C0023467	Acute myeloid leukemia	DisGeNet	
+SLC22A1	C0023467	Acute myeloid leukemia	DisGeNet	
+SLC22A2	C0023467	Acute myeloid leukemia	DisGeNet	
+SLC22A3	C0023467	Acute myeloid leukemia	DisGeNet	
+ULK1	C0023467	Acute myeloid leukemia	DisGeNet	
+PRKAA1	C0041341	Tuberous sclerosis syndrome	DisGeNet	
+PRKAA2	C0041341	Tuberous sclerosis syndrome	DisGeNet	
+PRKAB1	C0041341	Tuberous sclerosis syndrome	DisGeNet	
+PRKAA1	C0400966	Non-alcoholic Fatty Liver Disease	DisGeNet	
+PRKAA2	C0400966	Non-alcoholic Fatty Liver Disease	DisGeNet	
+PRKAB1	C0400966	Non-alcoholic Fatty Liver Disease	DisGeNet	
+SLC22A3	C0400966	Non-alcoholic Fatty Liver Disease	DisGeNet	
+PRKAA1	C0279661	Adenocarcinoma of pancreas	DisGeNet	
+PRKAA2	C0279661	Adenocarcinoma of pancreas	DisGeNet	
+PRKAA1	C0878544	Cardiomyopathy	DisGeNet	
+PRKAA2	C0878544	Cardiomyopathy	DisGeNet	
+PRKAB1	C0878544	Cardiomyopathy	DisGeNet	
+PRKAG2	C0878544	Cardiomyopathy	ClinVar,DisGeNet	
+PRKAA1	C0856169	Endothelial dysfunction	DisGeNet	
+PRKAA2	C0856169	Endothelial dysfunction	DisGeNet	
+PRKAB1	C0856169	Endothelial dysfunction	DisGeNet	
+PRKAA1	C0375095	Solid Neoplasm	DisGeNet	
+SLC22A3	C0375095	Solid Neoplasm	DisGeNet	
+PRKAA1	C0346629	Malignant neoplasm of large intestine	DisGeNet	
+PRKAA2	C0346629	Malignant neoplasm of large intestine	DisGeNet	
+PRKAB1	C0346629	Malignant neoplasm of large intestine	DisGeNet	
+SLC22A3	C0346629	Malignant neoplasm of large intestine	DisGeNet	
+PRKAA1	C3811653	Experimental Organism Basal Cell Carcinoma	DisGeNet	
+PRKAA2	C3811653	Experimental Organism Basal Cell Carcinoma	DisGeNet	
+PRKAB1	C3811653	Experimental Organism Basal Cell Carcinoma	DisGeNet	

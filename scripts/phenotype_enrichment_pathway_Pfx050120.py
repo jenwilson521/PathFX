@@ -12,7 +12,7 @@ new_hash_sum_files = pickle.load(open('../rscs/pfx041520_0.82_spec_nbhd_hash.pkl
 new_hash = pickle.load(open('../rscs/pfx041520_0.8_node_to_hashID.pkl','rb'))
 dtd = pickle.load(open('../rscs/pfxDB050620_dint.pkl','rb'))
 unn = pickle.load(open('../rscs/pfx041520_unique_nodes.pkl','rb'))
-db = pickle.load(open('../rscs/Pfx050120_dbid2name.pkl','rb')) # Drugbank ID to name
+db = pickle.load(open('../rscs/pfxDB050620_dbid2name.pkl','rb')) # Drugbank ID to name
 
 
 # BASE METHODS

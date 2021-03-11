@@ -8,3 +8,4 @@ Pfx051120_exec_code.zip
 results/phenotype_characterization/
 *spn_hash_batch_*.pkl
 schizophrenia_spark/*
+*.swp

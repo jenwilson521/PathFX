@@ -10,7 +10,8 @@ from datetime import datetime
 # DATA UPDATE-SPECIFIC VARIABLES
 new_hash_sum_files = pickle.load(open('../rscs/pfx041520_0.82_spec_nbhd_hash.pkl','rb'))
 new_hash = pickle.load(open('../rscs/pfx041520_0.8_node_to_hashID.pkl','rb'))
-dtd = pickle.load(open('../rscs/pfxDB050620_dint.pkl','rb'))
+## dtd = pickle.load(open('../rscs/pfxDB050620_dint.pkl','rb'))
+dtd  = pickle.load(open('../rscs/select_drugs_with_predicted_binding.pkl','rb'))  ### Manually adjusted 3-3-21
 unn = pickle.load(open('../rscs/pfx041520_unique_nodes.pkl','rb'))
 db = pickle.load(open('../rscs/pfxDB050620_dbid2name.pkl','rb')) # Drugbank ID to name
 

@@ -26,7 +26,7 @@ else:
 
 cui_file = os.path.join(rdir,args.clist)
 out_file = os.path.join(rdir,'lin_pandas_matrix.txt')
-cmd = "umls-similarity.pl --config itfc_confg.txt --infile %s --measure lin --matrix --realtime > %s"%(cui_file,out_file) 
+cmd = "umls-similarity.pl --config itfc_confg.txt --infile %s --measure lin --matrix > %s"%(cui_file,out_file) 
 os.system(cmd)
 
 
